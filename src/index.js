@@ -1,5 +1,6 @@
-import React from "react";
+import React /*, { Suspense }*/ from 'react';
 import ReactDOM from "react-dom";
+import './i18n';
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
@@ -7,7 +8,9 @@ import './bootstrap.min.css';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<App/>
+		{/*<Suspense fallback={<Loader />}>*/}
+			<App/>
+		{/*</Suspense>*/}
 	</React.StrictMode>,
 	document.getElementById("root")
 );

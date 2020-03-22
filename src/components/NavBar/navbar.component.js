@@ -2,6 +2,7 @@ import React from "react";
 import {Image, Navbar} from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import {NavLink} from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 import "./navbar.css";
 import logo from "./img/logo.svg";
 
@@ -10,6 +11,7 @@ import logo from "./img/logo.svg";
  *  @returns {*}
  */
 const NavBar = () => {
+	const { t } = useTranslation();
 
 	return (
 		<Navbar>
@@ -17,11 +19,11 @@ const NavBar = () => {
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav>
-					<NavLink exact to="/bio">Bio</NavLink>
-					<NavLink exact to="/portfolio">Portfolio</NavLink>
-					<NavLink exact to="/skills">Skills</NavLink>
-					<NavLink exact to="/cv">Curriculum Vitae</NavLink>
-					<NavLink exact to="/interests">Interests</NavLink>
+					<NavLink exact to="/bio">{t("navbar.bio")}</NavLink>
+					<NavLink exact to="/portfolio">{t("navbar.portfolio")}</NavLink>
+					<NavLink exact to="/skills">{t("navbar.skills")}</NavLink>
+					<NavLink exact to="/cv">{t("navbar.cv")}</NavLink>
+					<NavLink exact to="/interests">{t("navbar.interests")}</NavLink>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
