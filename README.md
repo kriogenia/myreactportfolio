@@ -10,3 +10,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Continuous integration served by [Travis CI](https://travis-ci.org/).
 
 Code quality analysis of [Codacy](https://codacy.com/).
+
+Website style using [Bootstrap](https://react-bootstrap.github.io/) and [Superhero](https://bootswatch.com/superhero/) theme

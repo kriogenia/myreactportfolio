@@ -1,5 +1,6 @@
 import React from "react";
 import {Route} from "react-router-dom";
+import {Footer} from "../../components";
 
 /**
  * Builds a Route decorating the component with the NavBar and footer
@@ -14,7 +15,7 @@ const PublicLayout = (props) => {
 				<div>
 					{/* <NavBar/> */}
 					<Component {...{ history, location, match }} />
-					{/* <Footer/> */}
+					<Footer/>
 				</div>
 			)}
 		/>
