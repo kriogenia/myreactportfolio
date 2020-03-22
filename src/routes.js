@@ -1,14 +1,14 @@
 import React, {Fragment} from "react";
-
 import {
 	BrowserRouter as Router,
-	Switch,
-	Route
+	Switch
 } from "react-router-dom";
-
 import {
 	Home
 } from "./containers/";
+import {
+	PublicLayout
+} from "./layouts";
 
 /**
  * Manages the BrowserRouter and so, all the route navigation
@@ -21,8 +21,8 @@ const Routes = () => {
 			<Fragment>
 				{/* Chooses the first route matching the direction and loads it */}
 				<Switch>
-					<Route path="/" component={Home} /> {/* Homepage - "/" */}
-					<Route path="*" component={Home} /> {/* All the non existent pages redirects to the Home */}
+					<PublicLayout component={Home} path="/" exact/> {/* Homepage - "/" */}
+					<PublicLayout component={Home} path="*"/> {/* All the non existent pages redirects to the Home */}
 				</Switch>
 			</Fragment>
 		</Router>
