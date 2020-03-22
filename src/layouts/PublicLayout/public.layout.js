@@ -1,11 +1,11 @@
-import React from 'react';
-import {Route} from 'react-router-dom';
+import React from "react";
+import {Route} from "react-router-dom";
 
 /**
  * Builds a Route decorating the component with the NavBar and footer
  * @param props	Contains the Component and the path
  */
-const PublicLayout = props => {
+const PublicLayout = (props) => {
 	const { component: Component, ...rest } = props;
 	return (
 		<Route
