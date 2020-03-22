@@ -1,5 +1,6 @@
-import logo from "../../logo.svg";
 import React from "react";
+
+let logo = "img/logo.svg";
 
 export const HomeComponent = () => {
 	return (
