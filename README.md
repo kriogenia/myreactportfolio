@@ -12,3 +12,5 @@ Continuous integration served by [Travis CI](https://travis-ci.org/).
 Code quality analysis of [Codacy](https://codacy.com/).
 
 Website style using [Bootstrap](https://react-bootstrap.github.io/) and [Superhero](https://bootswatch.com/superhero/) theme
+
+Internationalization handled with [react-i18next](https://react.i18next.com/)

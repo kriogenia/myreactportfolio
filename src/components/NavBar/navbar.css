@@ -10,3 +10,7 @@
 .flag-img {
     height: 30px;
 }
+
+.navbar-nav > a {
+    margin-right: 30px;
+}
