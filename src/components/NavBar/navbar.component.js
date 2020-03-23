@@ -27,11 +27,11 @@ const NavBar = () => {
 				<Nav  className="mr-auto"></Nav> {/* Empty space */}
 				<Nav> {/* Language buttons */}
 					<Image onClick={() => changeLanguage("en")}
-						   src={flaguk} alt="Home" className="nav-img flag-img"/>
+						src={flaguk} alt="Home" className="nav-img flag-img"/>
 					<Image onClick={() => changeLanguage("es")}
-						   src={flages} alt="Home" className="nav-img flag-img"/>
+						src={flages} alt="Home" className="nav-img flag-img"/>
 					<Image onClick={() => changeLanguage("gl")}
-						   src={flaggl} alt="Home" className="nav-img flag-img"/>
+						src={flaggl} alt="Home" className="nav-img flag-img"/>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

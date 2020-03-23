@@ -1,11 +1,11 @@
-import React, { Suspense } from 'react';
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import {Loader} from "./components";
-import './i18n';
+import "./i18n";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
-import './bootstrap.min.css';
+import "./bootstrap.min.css";
 
 ReactDOM.render(
 	<React.StrictMode>
