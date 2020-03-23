@@ -1,5 +1,6 @@
-import logo from "../../logo.svg";
 import React from "react";
+
+let logo = "img/logo.svg";
 
 export const HomeComponent = () => {
 	return (
@@ -8,7 +9,6 @@ export const HomeComponent = () => {
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
-					Developed by Kriogenia.
 				</p>
 				<a
 					className="App-link"

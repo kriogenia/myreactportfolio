@@ -1,0 +1,10 @@
+{
+  "home": "Inicio",
+  "navbar": {
+    "bio": "Biografía",
+    "portfolio": "Portfolio",
+    "skills": "Habilidades",
+    "cv": "Curriculum Vitae",
+    "interests": "Intereses"
+  }
+}

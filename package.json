@@ -1,5 +1,5 @@
 {
-  "homepage": "http://kriogenia.github.io/sotoestevezdotric",
+  "homepage": "https://kriogenia.github.io/",
   "name": "sotoestevezdotric",
   "version": "0.1.0",
   "private": true,
@@ -7,8 +7,15 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "i18next": "^19.3.3",
+    "i18next-browser-languagedetector": "^4.0.2",
+    "i18next-xhr-backend": "^3.2.2",
+    "mdbreact": "^4.25.4",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.13.1",
+    "react-i18next": "^11.3.4",
     "react-scripts": "3.4.1"
   },
   "scripts": {

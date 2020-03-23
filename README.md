@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/kriogenia/sotoestevezdotric.svg?branch=master)](https://travis-ci.org/kriogenia/sotoestevezdotric)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/458e6605276d4536ac2a6935916a1233)](https://www.codacy.com/manual/kriogenia/sotoestevezdotric?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kriogenia/sotoestevezdotric&amp;utm_campaign=Badge_Grade)
 
-Portfolio web page of Ricardo Soto Estévez.
+Portfolio web page of Ricardo Soto Estévez. [Hosted here](https://kriogenia.github.io/sotoestevezdotric/).
 
 ### Utilities
 
@@ -10,3 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Continuous integration served by [Travis CI](https://travis-ci.org/).
 
 Code quality analysis of [Codacy](https://codacy.com/).
+
+Website style using [Bootstrap](https://react-bootstrap.github.io/) and [Superhero](https://bootswatch.com/superhero/) theme
+
+Internationalization handled with [react-i18next](https://react.i18next.com/)

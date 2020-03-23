@@ -1,0 +1,16 @@
+.nav-img {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.brand-logo {
+    height: 60px;
+}
+
+.flag-img {
+    height: 30px;
+}
+
+.navbar-nav > a {
+    margin-right: 30px;
+}
