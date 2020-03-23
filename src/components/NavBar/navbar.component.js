@@ -5,6 +5,7 @@ import {NavLink} from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import "./navbar.css";
 import logo from "./img/logo.svg";
+import i18n from "../../i18n";
 
 /**
  * Navigation bar of the page
@@ -12,6 +13,10 @@ import logo from "./img/logo.svg";
  */
 const NavBar = () => {
 	const { t } = useTranslation();
+
+	const changeLanguage = lng => {
+		i18n.changeLanguage(lng);
+	};
 
 	return (
 		<Navbar>
@@ -25,6 +30,8 @@ const NavBar = () => {
 					<NavLink exact to="/cv">{t("navbar.cv")}</NavLink>
 					<NavLink exact to="/interests">{t("navbar.interests")}</NavLink>
 				</Nav>
+				<button onClick={() => changeLanguage('es')}>es</button>
+				<button onClick={() => changeLanguage('en')}>en</button>
 			</Navbar.Collapse>
 		</Navbar>
 	);
