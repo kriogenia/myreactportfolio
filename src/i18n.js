@@ -12,8 +12,8 @@ i18n
 		debug: true,
 		saveMissing: true,
 		backend: {
-			loadPath: "/locales/{{lng}}/{{ns}}.json",
-			addPath: "/locales/{{lng}}/{{ns}}.missing.json",
+			loadPath: "/sotoestevezdotric/locales/{{lng}}/{{ns}}.json",
+			addPath: "/sotoestevezdotric/locales/{{lng}}/{{ns}}.missing.json",
 			allowMultiLoading: true,
 		},
 		interpolation: {
