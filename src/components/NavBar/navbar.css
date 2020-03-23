@@ -1,5 +1,12 @@
-.brand-logo {
-    height: 60px;
+.nav-img {
     cursor: pointer;
     margin-right: 10px;
+}
+
+.brand-logo {
+    height: 60px;
+}
+
+.flag-img {
+    height: 30px;
 }

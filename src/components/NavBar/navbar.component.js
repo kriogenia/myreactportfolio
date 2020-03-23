@@ -4,8 +4,11 @@ import Nav from "react-bootstrap/Nav";
 import {NavLink} from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import "./navbar.css";
-import logo from "./img/logo.svg";
 import i18n from "../../i18n";
+import logo from "./img/logo.svg";
+import flages from "./img/flag-es.svg";
+import flaggl from "./img/flag-gl.svg";
+import flaguk from "./img/flag-uk.svg";
 
 /**
  * Navigation bar of the page
@@ -20,11 +23,11 @@ const NavBar = () => {
 
 	return (
 		<Navbar>
-			<Navbar.Brand href="/"><Image src={logo} alt="Home" className="brand-logo"/></Navbar.Brand>
+			<Navbar.Brand href="/"><Image src={logo} alt="Home" className="nav-img brand-logo"/></Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Suspense fallback={<Nav>Loading...</Nav>}>
-					<Nav>
+					<Nav> {/* Links */}
 						<NavLink exact to="/bio">{t("navbar.bio")}</NavLink>
 						<NavLink exact to="/portfolio">{t("navbar.portfolio")}</NavLink>
 						<NavLink exact to="/skills">{t("navbar.skills")}</NavLink>
@@ -32,8 +35,15 @@ const NavBar = () => {
 						<NavLink exact to="/interests">{t("navbar.interests")}</NavLink>
 					</Nav>
 				</Suspense>
-				<button onClick={() => changeLanguage("es")}>es</button>
-				<button onClick={() => changeLanguage("en")}>en</button>
+				<Nav  className="mr-auto"></Nav> {/* Empty space */}
+				<Nav> {/* Language buttons */}
+					<Image onClick={() => changeLanguage("en")}
+						   src={flaguk} alt="Home" className="nav-img flag-img"/>
+					<Image onClick={() => changeLanguage("es")}
+						   src={flages} alt="Home" className="nav-img flag-img"/>
+					<Image onClick={() => changeLanguage("gl")}
+						   src={flaggl} alt="Home" className="nav-img flag-img"/>
+				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
 	);
