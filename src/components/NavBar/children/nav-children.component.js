@@ -10,7 +10,7 @@ const NavChildren = () => {
 	return (
 		<Nav> {/* Links */}
 			{config.navbar.map((item) => (
-			<NavLink key={item.key} to={item.to} activeClassName="active">
+			<NavLink key={item.key} to={item.to} activeClassName="active" className="nav-link">
 					<span className="icon">
 					<img
 						src={item.icon}

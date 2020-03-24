@@ -17,7 +17,7 @@ const NavBar = () => {
 	};
 
 	return (
-		<Navbar>
+		<Navbar className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<Navbar.Brand href="/"><Image src={logo} alt="Home" className="nav-img brand-logo"/></Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
