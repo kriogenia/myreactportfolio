@@ -2,7 +2,7 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import {useTranslation} from "react-i18next";
-import config from "./../../../services/navbar-options";
+import config from "./navbar-options";
 
 const NavChildren = () => {
 	const { t } = useTranslation();

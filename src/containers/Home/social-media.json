@@ -1,0 +1,34 @@
+{
+    "social": [
+        {
+        "key": "github",
+        "alt": "GitHub",
+        "icon": "/sotoestevezdotric/img/home/github.svg",
+        "to": "https://github.com/kriogenia"
+        },
+        {
+        "key": "twitter",
+        "alt": "Twitter",
+        "icon": "/sotoestevezdotric/img/home/twitter.svg",
+        "to": "https://twitter.com/kriogenia"
+        },
+        {
+        "key": "steam",
+        "alt": "Steam",
+        "icon": "/sotoestevezdotric/img/home/steam.svg",
+        "to": "https://steamcommunity.com/id/kriogenia"
+        },
+        {
+        "key": "instagram",
+        "alt": "Instagram",
+        "icon": "/sotoestevezdotric/img/home/instagram.svg",
+        "to": "https://www.instagram.com/kriogenia/"
+        },
+        {
+        "key": "linkedin",
+        "alt": "LinkedIn",
+        "icon": "/sotoestevezdotric/img/home/linkedin.svg",
+        "to": "https://www.linkedin.com/in/ricardo-soto-est%C3%A9vez-baa62514b/"
+        }
+      ]
+}
