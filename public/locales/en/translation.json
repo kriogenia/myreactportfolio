@@ -10,6 +10,9 @@
     "portfolio": "Portfolio",
     "skills": "Skills",
     "cv": "Curriculum Vitae",
-    "interests": "Interests"
+    "interests": "Interests",
+    "en": "English",
+    "es": "Spanish",
+    "gl": "Galician"
   }
 }

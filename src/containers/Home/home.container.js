@@ -2,8 +2,8 @@ import React from "react";
 import {Col, Image, Row} from "react-bootstrap";
 import {Spacer} from "../../components";
 import {useTranslation} from "react-i18next";
+import {csocial} from "../../configs";
 import me from "./img";
-import config from "./social-media";
 import "./home.css";
 
 export const HomeComponent = () => {
@@ -35,7 +35,7 @@ export const HomeComponent = () => {
 				<Col md={12} lg={3}/>
 				<Col md={12} lg={6}>
 					<h3>{t("bio.social")}</h3>
-					{config.social.map((item) => (
+					{csocial.social.map((item) => (
 						<a key={item.key} href={item.to}>
 							<Image src={item.icon} style={{height: "50px", margin: "0px 10px"}} alt={item.alt}/>
 						</a>

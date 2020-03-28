@@ -1,0 +1,22 @@
+{
+    "languages": [
+        {
+        "key": "en",
+        "code": "en",
+        "icon": "/sotoestevezdotric/img/nav/flag-uk.svg",
+        "alt": "navbar.en"
+        },
+        {
+        "key": "es",
+        "code": "es",
+        "icon": "/sotoestevezdotric/img/nav/flag-es.svg",
+        "alt": "navbar.es"
+        },
+        {
+        "key": "gl",
+        "code": "gl",
+        "icon": "/sotoestevezdotric/img/nav/flag-gl.svg",
+        "alt": "navbar.gl"
+        }
+      ]
+}

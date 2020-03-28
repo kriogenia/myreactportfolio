@@ -2,14 +2,14 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import {useTranslation} from "react-i18next";
-import config from "./navbar-options";
+import {cnavbar} from "../../../configs";
 
 const NavChildren = () => {
 	const { t } = useTranslation();
 
 	return (
 		<Nav> {/* Links */}
-			{config.navbar.map((item) => (
+			{cnavbar.navbar.map((item) => (
 			<NavLink key={item.key} to={item.to} activeClassName="active" className="nav-link">
 					<span className="icon">
 					<img
