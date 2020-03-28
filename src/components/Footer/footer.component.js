@@ -1,10 +1,11 @@
 import React from "react";
 import { MDBContainer, MDBFooter } from "mdbreact";
+import "./footer.css";
 
 const Footer = () => {
 	return (
-		<MDBFooter color="primary" className="font-small pt-4 mt-4">
-			<div className="footer-copyright text-center py-3">
+		<MDBFooter color="primary bg-dark footer" className="font-small pt-4 mt-4">
+			<div className="footer-copyright text-center footer">
 				<MDBContainer fluid>
 					{new Date().getFullYear()} - Ricardo Soto Estévez -
 						<a href="https://github.com/kriogenia/"> Kriogenia </a>
