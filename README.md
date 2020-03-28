@@ -9,7 +9,9 @@ The main idea behind this project is building a portfolio web easily expandable 
 
 Right now the project is configured to be launched on the homepage specified at the package.json, you should change it there and rename it, this has an implication if you want to launch it on GitHub Pages like me. Those pages go as follow: 
 
+```bash
 https://{username}.github.io/{repository}/
+```
 
 The /{repository}/ is important as the project will always take it as the base of the public folder and therefore everything located there will need it in its path, if you look at my configs files you'll notice those paths there starts always with /{repository}/, if you will launch this on GitHub Pages, take into consideration you should do this too. In future version I will try to extract this too.
 

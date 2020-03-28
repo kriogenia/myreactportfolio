@@ -4,31 +4,31 @@
         "key": "bio",
         "label": "navbar.bio",
         "icon": "/sotoestevezdotric/img/nav/bio.svg",
-        "to": "/bio"
+        "to": "/sotoestevezdotric/bio"
         },
         {
         "key": "portfolio",
         "label": "navbar.portfolio",
         "icon": "/sotoestevezdotric/img/nav/portfolio.svg",
-        "to": "/portfolio"
+        "to": "/sotoestevezdotric/portfolio"
         },
         {
         "key": "skills",
         "label": "navbar.skills",
         "icon": "/sotoestevezdotric/img/nav/skills.svg",
-        "to": "/skills"
+        "to": "/sotoestevezdotric/skills"
         },
         {
         "key": "cv",
         "label": "navbar.cv",
         "icon": "/sotoestevezdotric/img/nav/cv.svg",
-        "to": "/cv"
+        "to": "/sotoestevezdotric/cv"
         },
         {
         "key": "interests",
         "label": "navbar.interests",
         "icon": "/sotoestevezdotric/img/nav/interests.svg",
-        "to": "/interests"
+        "to": "/sotoestevezdotric/interests"
         }
       ]
 }

@@ -3,12 +3,9 @@ import {
 	BrowserRouter as Router,
 	Switch
 } from "react-router-dom";
-import {
-	Home
-} from "./containers/";
-import {
-	PublicLayout
-} from "./layouts";
+import { Home } from "./containers/";
+import { PublicLayout } from "./layouts";
+import { name } from "./configs";
 
 /**
  * Manages the BrowserRouter and so, all the route navigation
@@ -21,7 +18,7 @@ const Routes = () => {
 			<Fragment>
 				{/* Chooses the first route matching the direction and loads it */}
 				<Switch>
-					<PublicLayout component={Home} path="/" exact/> {/* Homepage - "/" */}
+					<PublicLayout component={Home} path={name + "/bio"} exact/> {/* Bio - "/bio" */}
 					<PublicLayout component={Home} path="*"/> {/* All the non existent pages redirects to the Home */}
 				</Switch>
 			</Fragment>
