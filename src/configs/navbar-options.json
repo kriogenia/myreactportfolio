@@ -3,32 +3,32 @@
         {
         "key": "bio",
         "label": "navbar.bio",
-        "icon": "/sotoestevezdotric/img/nav/bio.svg",
-        "to": "/bio"
+        "icon": "/myreactportfolio/img/nav/bio.svg",
+        "to": "/myreactportfolio/bio"
         },
         {
         "key": "portfolio",
         "label": "navbar.portfolio",
-        "icon": "/sotoestevezdotric/img/nav/portfolio.svg",
-        "to": "/portfolio"
+        "icon": "/myreactportfolio/img/nav/portfolio.svg",
+        "to": "/myreactportfolio/portfolio"
         },
         {
         "key": "skills",
         "label": "navbar.skills",
-        "icon": "/sotoestevezdotric/img/nav/skills.svg",
-        "to": "/skills"
+        "icon": "/myreactportfolio/img/nav/skills.svg",
+        "to": "/myreactportfolio/skills"
         },
         {
         "key": "cv",
         "label": "navbar.cv",
-        "icon": "/sotoestevezdotric/img/nav/cv.svg",
-        "to": "/cv"
+        "icon": "/myreactportfolio/img/nav/cv.svg",
+        "to": "/myreactportfolio/cv"
         },
         {
         "key": "interests",
         "label": "navbar.interests",
-        "icon": "/sotoestevezdotric/img/nav/interests.svg",
-        "to": "/interests"
+        "icon": "/myreactportfolio/img/nav/interests.svg",
+        "to": "/myreactportfolio/interests"
         }
       ]
 }

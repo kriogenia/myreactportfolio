@@ -7,7 +7,7 @@ import me from "./img";
 import "./home.css";
 
 export const HomeComponent = () => {
-	const { t } = useTranslation();
+	const {t} = useTranslation();
 
 	return (
 		<div className="App">
