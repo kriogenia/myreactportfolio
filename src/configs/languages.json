@@ -3,19 +3,19 @@
         {
         "key": "en",
         "code": "en",
-        "icon": "/img/nav/flag-uk.svg",
+        "icon": "/img/lang/flag-uk.svg",
         "alt": "navbar.en"
         },
         {
         "key": "es",
         "code": "es",
-        "icon": "/img/nav/flag-es.svg",
+        "icon": "/img/lang/flag-es.svg",
         "alt": "navbar.es"
         },
         {
         "key": "gl",
         "code": "gl",
-        "icon": "/img/nav/flag-gl.svg",
+        "icon": "/img/lang/flag-gl.svg",
         "alt": "navbar.gl"
         }
       ]
