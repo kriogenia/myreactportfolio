@@ -14,5 +14,9 @@
     "en": "Inglés",
     "es": "Español",
     "gl": "Gallego"
+  },
+  "portfolio": {
+    "main": "Proyectos destacables",
+    "other": "Otros proyectos"
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import {Col, Image, Row} from "react-bootstrap";
 import {Spacer} from "../../components";
 import {useTranslation} from "react-i18next";
-import {csocial} from "../../configs";
+import {csocial, name} from "../../configs";
 import me from "./img";
 import "./home.css";
 
@@ -37,7 +37,7 @@ export const HomeComponent = () => {
 					<h3>{t("bio.social")}</h3>
 					{csocial.social.map((item) => (
 						<a key={item.key} href={item.to}>
-							<Image src={item.icon} style={{height: "50px", margin: "0px 10px"}} alt={item.alt}/>
+							<Image src={name + item.icon} style={{height: "50px", margin: "0px 10px"}} alt={item.alt}/>
 						</a>
 					))}
 				</Col>

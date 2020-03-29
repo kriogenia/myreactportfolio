@@ -3,32 +3,32 @@
         {
         "key": "bio",
         "label": "navbar.bio",
-        "icon": "/myreactportfolio/img/nav/bio.svg",
-        "to": "/myreactportfolio/bio"
+        "icon": "/img/nav/bio.svg",
+        "to": "/bio"
         },
         {
         "key": "portfolio",
         "label": "navbar.portfolio",
-        "icon": "/myreactportfolio/img/nav/portfolio.svg",
-        "to": "/myreactportfolio/portfolio"
+        "icon": "/img/nav/portfolio.svg",
+        "to": "/portfolio"
         },
         {
         "key": "skills",
         "label": "navbar.skills",
-        "icon": "/myreactportfolio/img/nav/skills.svg",
-        "to": "/myreactportfolio/skills"
+        "icon": "/img/nav/skills.svg",
+        "to": "/skills"
         },
         {
         "key": "cv",
         "label": "navbar.cv",
-        "icon": "/myreactportfolio/img/nav/cv.svg",
-        "to": "/myreactportfolio/cv"
+        "icon": "/img/nav/cv.svg",
+        "to": "/cv"
         },
         {
         "key": "interests",
         "label": "navbar.interests",
-        "icon": "/myreactportfolio/img/nav/interests.svg",
-        "to": "/myreactportfolio/interests"
+        "icon": "/img/nav/interests.svg",
+        "to": "/interests"
         }
       ]
 }

@@ -14,5 +14,9 @@
     "en": "English",
     "es": "Spanish",
     "gl": "Galician"
+  },
+  "portfolio": {
+    "main": "Main projects",
+    "other": "Other projects"
   }
 }

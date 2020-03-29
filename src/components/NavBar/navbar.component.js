@@ -33,7 +33,7 @@ const NavBar = () => {
 				<Nav> {/* Language buttons */}
 					{clanguages.languages.map((item) => (
 						<Image key={item.key} onClick={() => changeLanguage(item.code)}
-							src={item.icon} alt={t(item.alt)} className="nav-img flag-img"/>
+							src={name + item.icon} alt={t(item.alt)} className="nav-img flag-img"/>
 					))}
 				</Nav>
 			</Navbar.Collapse>
