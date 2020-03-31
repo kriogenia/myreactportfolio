@@ -77,6 +77,11 @@
     height: 20px;
 }
 
+.expositor-logo {
+    width: 100%;
+    max-width: 50px;
+}
+
 .expositor .expositor-right {
     width: 75%;
     height: 100%;

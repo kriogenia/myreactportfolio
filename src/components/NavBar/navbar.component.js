@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import NavChildren from "./children";
 import {useTranslation} from "react-i18next";
 import i18n from "../../i18n";
-import {clanguages, name} from "../../configs";
+import {clanguages} from "../../contexts";
 import "./navbar.css";
 
 /**
@@ -22,7 +22,7 @@ const NavBar = () => {
 	return (
 		<Navbar className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<Navbar.Brand href="/">
-				<Image src={name + "/img/logo.svg"} alt="Home" className="nav-img brand-logo"/>
+				<Image src={process.env.PUBLIC_URL + "/img/logo.svg"} alt="Home" className="nav-img brand-logo"/>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
@@ -33,7 +33,7 @@ const NavBar = () => {
 				<Nav> {/* Language buttons */}
 					{clanguages.languages.map((item) => (
 						<Image key={item.key} onClick={() => changeLanguage(item.code)}
-							src={name + item.icon} alt={t(item.alt)} className="nav-img flag-img"/>
+							src={process.env.PUBLIC_URL + item.icon} alt={t(item.alt)} className="nav-img flag-img"/>
 					))}
 				</Nav>
 			</Navbar.Collapse>

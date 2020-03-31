@@ -7,15 +7,13 @@ The main idea behind this project is building a portfolio web easily expandable 
 
 ### Previous considerations
 
-Right now the project is configured to be launched on the homepage specified at the package.json, you should change it there and rename it, this has an implication if you want to launch it on GitHub Pages like me. Those pages go as follow: 
+Right now the project is configured to be launched on the homepage specified at the package.json, you should change it there and rename it, this is the way to do it on GitHub Pages like me. You can follow [this steps](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f) to do it. 
 
 ```bash
 https://{username}.github.io/{repository}/
 ```
 
-The /{repository}/ is important as the project will always take it as the base of the public folder and therefore everything located there will need it in its path. To circunvent this problem I made the **/configs/common.json** file to provide the repository name wherever it must be, so you need to change it to your needs (if you are not launching on GitHub Pages you should change it to "/").
-
-Yuo'll probably also want to edit de **/public/index.html** to change the title, icon and description of the web to your needs.
+You'll probably want to edit de **/public/index.html** to change the title, icon and description of the web to your needs.
 
 If you want to test this on your computer you will need to launch this from the root of the project:
 

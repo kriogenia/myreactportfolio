@@ -2,7 +2,7 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import {useTranslation} from "react-i18next";
-import {cnavbar, name} from "../../../configs";
+import {cnavbar} from "../../../contexts";
 
 const NavChildren = () => {
 	const { t } = useTranslation();
@@ -10,10 +10,10 @@ const NavChildren = () => {
 	return (
 		<Nav> {/* Links */}
 			{cnavbar.navbar.map((item) => (
-			<NavLink key={item.key} to={name + item.to} activeClassName="active" className="nav-link">
+			<NavLink key={item.key} to={item.to} activeClassName="active" className="nav-link">
 					<span className="icon">
 					<img
-						src={name + item.icon}
+						src={process.env.PUBLIC_URL + item.icon}
 						alt={t(item.label)}
 						className="nav-icon"
 						width="24px"

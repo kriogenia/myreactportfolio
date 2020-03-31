@@ -10,7 +10,9 @@ export const PortfolioComponent = () => {
 	return (
 		<div className="App">
 			<Row className="justify-content-md-center">
-				<h1 style={{margin: "10px 0 0 0"}}>{t("portfolio.main")}</h1>
+				<Col xs={12} sm={12} md={12} lg={12} xl={12}>
+					<h1 style={{margin: "10px 0 0 0"}}>{t("portfolio.main")}</h1>
+				</Col>
 			</Row>
 			<Row className="justify-content-md-center">
 				<Col xs={12} sm={12} md={12} lg={2} xl={2}/>
@@ -25,8 +27,10 @@ export const PortfolioComponent = () => {
 				<Col xs={12} sm={12} md={12} lg={2} xl={2}/>
 			</Row>
 			<Row className="justify-content-md-center">
-				<Spacer/>
-				<h2>{t("portfolio.other")}</h2>
+				<Col xs={12} sm={12} md={12} lg={12} xl={12}>
+					<Spacer/>
+					<h2>{t("portfolio.other")}</h2>
+				</Col>
 			</Row>
 			<Row className="justify-content-md-center">
 				<Col md={12} lg={2}/>
