@@ -1,0 +1,82 @@
+{
+  "main": [
+    {
+      "name": "thisweb",
+      "icon": "/img/thumbnails/thisweb.png",
+      "href": "https://kriogenia.github.io/myreactportfolio/",
+      "logos": [
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        },
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        },
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "name": "thisweb",
+      "icon": "/img/thumbnails/thisweb.png",
+      "href": "https://kriogenia.github.io/myreactportfolio/",
+      "logos": [
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        },
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        },
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "name": "thisweb",
+      "icon": "/img/thumbnails/thisweb.png",
+      "href": "https://kriogenia.github.io/myreactportfolio/",
+      "logos": [
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        },
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        },
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "name": "thisweb",
+      "icon": "/img/thumbnails/thisweb.png",
+      "href": "https://kriogenia.github.io/myreactportfolio/",
+      "logos": [
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        },
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        },
+        {
+          "icon": "/img/lang/flag-uk.svg",
+          "name": "React"
+        }
+      ]
+    }
+  ],
+  "other": [
+  ]
+}

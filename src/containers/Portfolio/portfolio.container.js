@@ -3,6 +3,7 @@ import {Col, Row} from "react-bootstrap";
 import {Spacer} from "../../components";
 import {useTranslation} from "react-i18next";
 import {MainProjectComponent, OtherProjectComponent} from "./ProjectsComponents";
+import {cportfolio} from "../../contexts";
 
 export const PortfolioComponent = () => {
 	const {t} = useTranslation();
@@ -18,10 +19,9 @@ export const PortfolioComponent = () => {
 				<Col xs={12} sm={12} md={12} lg={2} xl={2}/>
 				<Col xs={12} sm={12} md={12} lg={8} xl={8}>
 					<Row>
-						<MainProjectComponent/>
-						<MainProjectComponent/>
-						<MainProjectComponent/>
-						<MainProjectComponent/>
+						{cportfolio.main.map((project) =>
+							<MainProjectComponent project={project}/>
+						)}
 					</Row>
 				</Col>
 				<Col xs={12} sm={12} md={12} lg={2} xl={2}/>

@@ -11,7 +11,6 @@
 
 .expositor h3 {
     margin-top: 5px;
-    text-align: center;
 }
 
 .expositor .expositor-left {
@@ -47,15 +46,20 @@
 }
 
 .expositor .expositor-left .expositor-extra {
-    width: 75%;
-    float: left;
-    position: absolute;
-    left: 150px;
+    width: 450px;
     height: 100%;
+    position: absolute;
+    float: left;
+    left: 150px;
+    padding: 0 1rem 1rem;
 }
 
 .expositor .expositor-left .expositor-extra h3 {
     margin-top: 5px;
+    color: #fff;}
+
+.expositor-extra-title {
+    flex-flow: row nowrap;
 }
 
 .expositor-link {
@@ -73,7 +77,6 @@
 }
 
 .expositor-logos {
-    margin-top: 25px;
     height: 20px;
 }
 
@@ -83,11 +86,10 @@
 }
 
 .expositor .expositor-right {
-    width: 75%;
+    width: 450px;
     height: 100%;
     position: absolute;
-    top: 0;
-    right: 0;
+    left: 150px;
     z-index: 1;
     box-sizing: border-box;
     padding: 0 1rem 1rem;
