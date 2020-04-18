@@ -9,6 +9,10 @@
     margin: 1rem 0.5rem;
 }
 
+.other-project .expositor {
+    height: 50px;
+}
+
 .expositor h3 {
     margin-top: 5px;
 }
@@ -21,6 +25,10 @@
     transition: width 0.4s;
     overflow: hidden;
     z-index: 2;
+}
+
+.other-project .expositor .expositor-left {
+    width: 10px;
 }
 
 .expositor:hover .expositor-left {
@@ -54,9 +62,19 @@
     padding: 0 1rem 1rem;
 }
 
+.other-project .expositor .expositor-left .expositor-extra {
+    width: 100%;
+    left: 15px;
+}
+
 .expositor .expositor-left .expositor-extra h3 {
     margin-top: 5px;
-    color: #fff;}
+    color: #fff;
+}
+
+.other-project .expositor .expositor-left .expositor-extra h3 {
+    margin-top: 10px;
+}
 
 .expositor-extra-title {
     flex-flow: row nowrap;
@@ -93,4 +111,14 @@
     z-index: 1;
     box-sizing: border-box;
     padding: 0 1rem 1rem;
+}
+
+.other-project .expositor .expositor-right {
+    width: 100%;
+    left: 15px;
+}
+
+.other-project h3 {
+    margin-top: 10px;
+    text-align: left;
 }

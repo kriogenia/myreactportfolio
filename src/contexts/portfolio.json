@@ -1,20 +1,12 @@
 {
   "main": [
     {
-      "name": "thisweb",
+      "name": "This web",
       "icon": "/img/thumbnails/thisweb.png",
-      "href": "https://kriogenia.github.io/myreactportfolio/",
+      "href": "https://github.com/kriogenia/myreactportfolio",
       "logos": [
         {
-          "icon": "/img/lang/flag-uk.svg",
-          "name": "React"
-        },
-        {
-          "icon": "/img/lang/flag-uk.svg",
-          "name": "React"
-        },
-        {
-          "icon": "/img/lang/flag-uk.svg",
+          "icon": "/img/logos/react.svg",
           "name": "React"
         }
       ]
@@ -78,5 +70,17 @@
     }
   ],
   "other": [
+    {
+      "name": "other",
+      "href": "https://kriogenia.github.io/myreactportfolio/"
+    },
+    {
+      "name": "other",
+      "href": "https://kriogenia.github.io/myreactportfolio/"
+    },
+    {
+      "name": "other",
+      "href": "https://kriogenia.github.io/myreactportfolio/"
+    }
   ]
 }

@@ -36,11 +36,9 @@ export const PortfolioComponent = () => {
 				<Col md={12} lg={2}/>
 				<Col md={12} lg={8}>
 					<Row>
-						<OtherProjectComponent/>
-						<OtherProjectComponent/>
-						<OtherProjectComponent/>
-						<OtherProjectComponent/>
-						<OtherProjectComponent/>
+						{cportfolio.other.map((project) =>
+							<OtherProjectComponent name={project.name} href={project.href}/>
+						)}
 					</Row>
 				</Col>
 				<Col md={12} lg={2}/>
