@@ -6,6 +6,7 @@ import {MainProjectComponent, OtherProjectComponent} from "./ProjectsComponents"
 import {cportfolio} from "../../contexts";
 
 export const PortfolioComponent = () => {
+
 	const {t} = useTranslation();
 
 	return (

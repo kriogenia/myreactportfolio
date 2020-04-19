@@ -1,10 +1,5 @@
 {
   "bio": {
-    "name": "Ricardo",
-    "surname": "Soto Estévez",
-    "p1": "Hola, soy un estudiante de 25 años de la Universidad de Oviedo.",
-    "p2": "Nací en Noia (A Coruña) y llevo programando la mitad de mi vida. Simplemente disfruto mucho escribiendo código, es bastante habitual que cuando me aburro empiece a pensar en empezar un nuevo proyecto, habitualmente con lo que sea que esté aprendiendo en ese momento. Por ejemplo, ahora mismo estoy aprendiendo React y de ello nace esta página web.",
-    "p3": "Bienvenido, soy Ricardo Soto Estévez y soy desarrollador de software.",
     "social": "Redes sociales"
   },
   "navbar": {

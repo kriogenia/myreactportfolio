@@ -18,11 +18,11 @@ export const HomeComponent = () => {
 				<Col md={12} lg={3}/>
 				<Col md={12} lg={6}>
 					<Image src={me} style={{height: "200px"}} alt="Ricardo Soto Estévez"/>
-					<h1>{t("bio.name")} <span className="surname text-primary">{t("bio.surname")}</span></h1>
+					<h1>{t("bio:name")} <span className="surname text-primary">{t("bio:surname")}</span></h1>
 					<hr/>
-					<p>{t("bio.p1")}.</p>
-					<p>{t("bio.p2")}</p>
-					<p>{t("bio.p3")}</p>
+					<p>{t("bio:p1")}</p>
+					<p>{t("bio:p2")}</p>
+					<p>{t("bio:p3")}</p>
 				</Col>
 				<Col md={12} lg={3}/>
 			</Row>
@@ -38,7 +38,7 @@ export const HomeComponent = () => {
 					{csocial.social.map((item) => (
 						<a key={item.key} href={item.to}>
 							<Image src={process.env.PUBLIC_URL + item.icon} style={{height: "50px", margin: "0px 10px"}}
-								   alt={item.alt}/>
+								   data-toggle="tooltip" title={item.alt} alt={item.alt}/>
 						</a>
 					))}
 				</Col>

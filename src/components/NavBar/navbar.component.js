@@ -21,7 +21,7 @@ const NavBar = () => {
 
 	return (
 		<Navbar className="navbar navbar-expand-lg navbar-dark bg-dark">
-			<Navbar.Brand href="/">
+			<Navbar.Brand href={process.env.PUBLIC_URL}>
 				<Image src={process.env.PUBLIC_URL + "/img/logo.svg"} alt="Home" className="nav-img brand-logo"/>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
