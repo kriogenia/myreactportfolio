@@ -1,13 +1,11 @@
-import ccommons from "./common";
 import clanguages from "./languages";
 import cnavbar from "./navbar-options.json";
+import cportfolio from "./portfolio";
 import csocial from "./social-media";
-import {name} from "./common";
 
 export {
-	ccommons,
 	clanguages,
 	cnavbar,
-	csocial,
-	name
+	cportfolio,
+	csocial
 };

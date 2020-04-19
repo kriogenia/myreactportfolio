@@ -1,19 +1,19 @@
 [![Build Status](https://travis-ci.org/kriogenia/sotoestevezdotric.svg?branch=master)](https://travis-ci.org/kriogenia/sotoestevezdotric)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/458e6605276d4536ac2a6935916a1233)](https://www.codacy.com/manual/kriogenia/sotoestevezdotric?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kriogenia/sotoestevezdotric&amp;utm_campaign=Badge_Grade)
 
-Portfolio web page template made with React. [Hosted here](https://kriogenia.github.io/myreactportfolio/).
+Portfolio web page template made with React. [The exampel is hosted here](https://kriogenia.github.io/myreactportfolio/).
 
-The main idea behind this project is building a portfolio web easily expandable to keep it updated with any new change someone would want to add like a new project or skills acquired. As so, those expandable options are right now JSON files on configs, you can easily create or update a new language or project just making an easy change on those files. If you want to fork this repository to build your own web from this one I highly encourage to. The way to work with those files go as follows:
+The main idea behind this project is building a portfolio web easily expandable to keep it updated with any new change someone would want to add like a new project or skills acquired. As so, those expandable options are right now JSON files on configs, you can easily create or update a new language or project just making an easy change on those files. If you want to fork this repository to build your own web from this one I highly encourage you to. The way to work with those files go as follows:
 
 ### Previous considerations
 
-Right now the project is configured to be launched on the homepage specified at the package.json, you should change it there and rename it, this has an implication if you want to launch it on GitHub Pages like me. Those pages go as follow: 
+Right now the project is configured to be launched on the homepage specified at the package.json, you should change it there and rename it, this is the way to do it on GitHub Pages like me. You can follow [this steps](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f) to do it. 
 
 ```bash
 https://{username}.github.io/{repository}/
 ```
 
-The /{repository}/ is important as the project will always take it as the base of the public folder and therefore everything located there will need it in its path, if you look at my configs files you'll notice those paths there starts always with /{repository}/, if you will launch this on GitHub Pages, take into consideration you should do this too. You should change the name on **/configs/common.json** too. This provides the repository name on the code.
+You'll probably want to edit de **/public/index.html** to change the title, icon and description of the web to your needs.
 
 If you want to test this on your computer you will need to launch this from the root of the project:
 
@@ -21,7 +21,7 @@ If you want to test this on your computer you will need to launch this from the 
 npm start
 ```
 
-To deploy it you can do it with this, the first option does it on your own server and the other one is to deploy on your respective GitHub Page:
+To deploy it you can do it with this, the first option does it on your own server and the other one is to deploy it on your respective GitHub Page:
 
 ```bash
 npm run build

@@ -1,0 +1,82 @@
+{
+  "main": [
+    {
+      "name": "This web",
+      "icon": "/img/thumbnails/thisweb.png",
+      "href": "https://github.com/kriogenia/myreactportfolio",
+      "logos": [
+        {
+          "icon": "/img/logos/react.svg",
+          "name": "React"
+        },
+        {
+          "icon": "/img/logos/javascript.svg",
+          "name": "javascript"
+        }
+      ]
+    },
+    {
+      "name": "MatchAndRank",
+      "icon": "/img/thumbnails/matchandrank.png",
+      "href": "https://github.com/kriogenia/MatchAndRank",
+      "logos": [
+        {
+          "icon": "/img/logos/csharp.svg",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "name": "Viade",
+      "icon": "/img/thumbnails/viade.png",
+      "href": "https://github.com/Arquisoft/viade_es4c",
+      "logos": [
+        {
+          "icon": "/img/logos/react.svg",
+          "name": "React"
+        },
+        {
+          "icon": "/img/logos/javascript.svg",
+          "name": "javascript"
+        },
+        {
+          "icon": "/img/logos/solid.svg",
+          "name": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "IPS",
+      "icon": "/img/thumbnails/ips.png",
+      "href": "https://github.com/kriogenia/IPS-Gestion-de-Hospitales",
+      "logos": [
+        {
+          "icon": "/img/logos/java.svg",
+          "name": "Java"
+        },
+        {
+          "icon": "/img/logos/spring.svg",
+          "name": "SpringBoot"
+        }
+      ]
+    }
+  ],
+  "other": [
+    {
+      "name": "CPM",
+      "href": "https://github.com/kriogenia/CPM-Planificador-de-Fiestas"
+    },
+    {
+      "name": "SEW - Javascript",
+      "href": "https://github.com/kriogenia/practica-JS-SEW"
+    },
+    {
+      "name": "SEW - HTML/CSS",
+      "href": "https://github.com/kriogenia/practica1-SEW"
+    },
+    {
+      "name": "UniOvi Server Bot",
+      "href": "https://github.com/kriogenia/uniovi-server-bot"
+    }
+  ]
+}

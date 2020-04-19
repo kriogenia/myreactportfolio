@@ -3,31 +3,31 @@
         {
         "key": "github",
         "alt": "GitHub",
-        "icon": "/myreactportfolio/img/home/github.svg",
+        "icon": "/img/media/github.svg",
         "to": "https://github.com/kriogenia"
         },
         {
         "key": "twitter",
         "alt": "Twitter",
-        "icon": "/myreactportfolio/img/home/twitter.svg",
+        "icon": "/img/media/twitter.svg",
         "to": "https://twitter.com/kriogenia"
         },
         {
         "key": "steam",
         "alt": "Steam",
-        "icon": "/myreactportfolio/img/home/steam.svg",
+        "icon": "/img/media/steam.svg",
         "to": "https://steamcommunity.com/id/kriogenia"
         },
         {
         "key": "instagram",
         "alt": "Instagram",
-        "icon": "/myreactportfolio/img/home/instagram.svg",
+        "icon": "/img/media/instagram.svg",
         "to": "https://www.instagram.com/kriogenia/"
         },
         {
         "key": "linkedin",
         "alt": "LinkedIn",
-        "icon": "/myreactportfolio/img/home/linkedin.svg",
+        "icon": "/img/media/linkedin.svg",
         "to": "https://www.linkedin.com/in/ricardo-soto-est%C3%A9vez-baa62514b/"
         }
       ]
