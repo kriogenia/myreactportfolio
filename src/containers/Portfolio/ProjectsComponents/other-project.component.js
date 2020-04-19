@@ -15,12 +15,12 @@ export const OtherProjectComponent = (props) => {
 				<div className="expositor-left">
 					<div className="expositor-extra">
 						<a href={href}>
-							<h3>{t(name + ".name")}</h3>
+							<h3>{t("portfolio:" + name + ".name")}</h3>
 						</a>
 					</div>
 				</div>
 				<div className="expositor-right">
-					<h3>{t(name + ".name")}</h3>
+					<h3>{t("portfolio:" + name + ".name")}</h3>
 				</div>
 			</div>
 		</Col>

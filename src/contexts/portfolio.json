@@ -8,79 +8,75 @@
         {
           "icon": "/img/logos/react.svg",
           "name": "React"
+        },
+        {
+          "icon": "/img/logos/javascript.svg",
+          "name": "javascript"
         }
       ]
     },
     {
-      "name": "thisweb",
-      "icon": "/img/thumbnails/thisweb.png",
-      "href": "https://kriogenia.github.io/myreactportfolio/",
+      "name": "MatchAndRank",
+      "icon": "/img/thumbnails/matchandrank.png",
+      "href": "https://github.com/kriogenia/MatchAndRank",
       "logos": [
         {
-          "icon": "/img/lang/flag-uk.svg",
-          "name": "React"
-        },
-        {
-          "icon": "/img/lang/flag-uk.svg",
-          "name": "React"
-        },
-        {
-          "icon": "/img/lang/flag-uk.svg",
-          "name": "React"
+          "icon": "/img/logos/csharp.svg",
+          "name": "C#"
         }
       ]
     },
     {
-      "name": "thisweb",
-      "icon": "/img/thumbnails/thisweb.png",
-      "href": "https://kriogenia.github.io/myreactportfolio/",
+      "name": "Viade",
+      "icon": "/img/thumbnails/viade.png",
+      "href": "https://github.com/Arquisoft/viade_es4c",
       "logos": [
         {
-          "icon": "/img/lang/flag-uk.svg",
+          "icon": "/img/logos/react.svg",
           "name": "React"
         },
         {
-          "icon": "/img/lang/flag-uk.svg",
-          "name": "React"
+          "icon": "/img/logos/javascript.svg",
+          "name": "javascript"
         },
         {
-          "icon": "/img/lang/flag-uk.svg",
-          "name": "React"
+          "icon": "/img/logos/solid.svg",
+          "name": "Solid"
         }
       ]
     },
     {
-      "name": "thisweb",
-      "icon": "/img/thumbnails/thisweb.png",
-      "href": "https://kriogenia.github.io/myreactportfolio/",
+      "name": "IPS",
+      "icon": "/img/thumbnails/ips.png",
+      "href": "https://github.com/kriogenia/IPS-Gestion-de-Hospitales",
       "logos": [
         {
-          "icon": "/img/lang/flag-uk.svg",
-          "name": "React"
+          "icon": "/img/logos/java.svg",
+          "name": "Java"
         },
         {
-          "icon": "/img/lang/flag-uk.svg",
-          "name": "React"
-        },
-        {
-          "icon": "/img/lang/flag-uk.svg",
-          "name": "React"
+          "icon": "/img/logos/spring.svg",
+          "name": "SpringBoot"
         }
       ]
     }
   ],
   "other": [
     {
-      "name": "other",
-      "href": "https://kriogenia.github.io/myreactportfolio/"
+      "name": "CPM",
+      "href": "https://github.com/kriogenia/CPM-Planificador-de-Fiestas"
     },
     {
-      "name": "other",
-      "href": "https://kriogenia.github.io/myreactportfolio/"
+      "name": "SEW - Javascript",
+      "href": "https://github.com/kriogenia/practica-JS-SEW"
     },
     {
-      "name": "other",
-      "href": "https://kriogenia.github.io/myreactportfolio/"
+      "name": "SEW - HTML/CSS",
+      "href": "https://github.com/kriogenia/practica1-SEW"
+    },
+    {
+      "name": "UniOvi Server Bot",
+      "href": "https://github.com/kriogenia/uniovi-server-bot"
     }
   ]
 }
