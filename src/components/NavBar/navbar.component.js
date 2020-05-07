@@ -1,6 +1,5 @@
 import React, {Suspense} from "react";
-import {Image, Navbar} from "react-bootstrap";
-import Nav from "react-bootstrap/Nav";
+import {Image, Navbar, Nav} from "react-bootstrap";
 import NavChildren from "./children";
 import {useTranslation} from "react-i18next";
 import i18n from "../../i18n";
@@ -20,7 +19,7 @@ const NavBar = () => {
 	};
 
 	return (
-		<Navbar className="navbar navbar-expand-lg navbar-dark bg-dark">
+		<Navbar className="navbar navbar-dark" bg="dark" expand="lg">
 			<Navbar.Brand href={process.env.PUBLIC_URL}>
 				<Image src={process.env.PUBLIC_URL + "/img/logo.svg"} alt="Home" className="nav-img brand-logo"/>
 			</Navbar.Brand>
@@ -29,8 +28,8 @@ const NavBar = () => {
 				<Suspense fallback={<Nav>Loading...</Nav>}>
 					<NavChildren/>
 				</Suspense>
-				<Nav  className="mr-auto"/> {/* Empty space */}
-				<Nav> {/* Language buttons */}
+				<Nav className="mr-auto"/> {/* Empty space */}
+				<Nav className="collapse-languages"> {/* Language buttons */}
 					{clanguages.languages.map((item) => (
 						<Image key={item.key} onClick={() => changeLanguage(item.code)}
 							src={process.env.PUBLIC_URL + item.icon} alt={t(item.alt)} className="nav-img flag-img"/>

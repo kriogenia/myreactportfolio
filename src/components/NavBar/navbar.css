@@ -15,3 +15,7 @@
     margin-right: 30px;
     size: 1rem;
 }
+
+.navbar-nav.collapse-languages {
+    flex-direction: row;
+}
