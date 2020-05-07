@@ -2,11 +2,11 @@ import React from "react";
 import {useTranslation} from "react-i18next";
 import "./skill-component.css";
 
-export const SkillComponent = ({project}) => {
+export const SkillComponent = ({object}) => {
 
 	const {t} = useTranslation();
 
-	const {name, lvl, icon} = project;
+	const {name, lvl, icon} = object;
 
 	return (
 		<div className="skill-card">
@@ -21,7 +21,10 @@ export const SkillComponent = ({project}) => {
 				Lvl. {lvl}/5
 				<div className="skill-lvl">
 					{[1,2,3,4,5].map((x) => {
-						return <div className={`skill-bar ${x<=lvl ? "filled" : "non-filled"}`}>&nbsp;</div>;
+						return (
+							<div key={`sb-${x}`} className={`skill-bar ${x<=lvl ? "filled" : "non-filled"}`}>
+								&nbsp;
+							</div>);
 					})}
 				</div>
 			</div>

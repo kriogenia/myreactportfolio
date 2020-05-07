@@ -1,4 +1,9 @@
 {
+  "titles": {
+      "languages": "Languages",
+      "coding": "Coding",
+      "software": "Softwares"
+  },
   "spanish": {
     "name": "Spanish",
     "description": "Native speaker."
@@ -14,5 +19,21 @@
   "portuguese": {
     "name": "Portuguese",
     "description": "Able to communicate verbally."
+  },
+  "java": {
+    "name": "Java",
+    "description": "The language I'm most experienced with. Great understanding of Swing. Experience with Spring."
+  },
+  "csharp": {
+    "name": "C#",
+    "description": "Favourite language. I can do anything with Linq."
+  },
+  "js": {
+    "name": "Javascript",
+    "description": "What I'm using the most recently. A lot of hours already with it."
+  },
+  "react": {
+    "name": "React",
+    "description": "Two big projects working with it. My predilect way to build websites."
   }
 }
