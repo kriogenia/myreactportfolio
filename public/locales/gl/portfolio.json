@@ -1,10 +1,31 @@
 {
-  "This web": {
-    "name": "Esta páxina modelo",
-    "description": "Miña propia páxina web portfolio web, deseñada de forma moi modular para ser fácilmente expandible e modificable co que se converte nunha páxina modelo útil para crear a túa propia a partir dela."
+  "CPM": {
+    "name": "Módulo CPM",
+    "description": "Aproximación a unha aplicación de planificación de festas desarrollada con Swing para a asignatura Comunicación Persoa-Máquina do segundo curso da Universidade de Oviedo."
+  },
+  "IPS": {
+    "name": "Módulo IPS",
+    "description": "Aplicación de xestión de hospitais desarrollada ao largo da materia Enxeñaría do Proceso Software do terceiro curso da Universidade de Oviedo."
   },
   "MatchAndRank": {
     "name": "MatchAndRank",
     "description": "Aplicación de consola e escritorio coa que crear listas ordeadas por medio dunha serie de enfrentamentos entre os participantes listados, feita con amplo uso de programación funcional."
+  },
+  "SEW - HTML/CSS": {
+    "name": "SEW - HTML/CSS"
+  },
+  "SEW - Javascript": {
+    "name": "SEW - Javascript"
+  },
+  "This web": {
+    "name": "Esta páxina modelo",
+    "description": "Miña propia páxina web portfolio web, deseñada de forma moi modular para ser fácilmente expandible e modificable co que se converte nunha páxina modelo útil para crear a túa propia a partir dela."
+  },
+  "UniOvi Server Bot": {
+    "name": "UniOvi Server Bot"
+  },
+  "Viade": {
+    "name": "Viade",
+    "description": "Aplicación basada en SOLID para subir e compartir rutas desarrollada durante a materia de Arquitectura do Software do terceiro curso da Universidad of Oviedo."
   }
 }
