@@ -10,5 +10,9 @@
   "english": {
     "name": "English",
     "description": "B2 level."
+  },
+  "portuguese": {
+    "name": "Portuguese",
+    "description": "Able to communicate verbally."
   }
 }

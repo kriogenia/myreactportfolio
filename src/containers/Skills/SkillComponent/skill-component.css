@@ -1,7 +1,7 @@
 .skill-card {
     display: flex;
     padding: 10px;
-    background: rgba(0,0,0,.15);
+    background: rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     text-align: left;
 }
@@ -36,9 +36,9 @@
 }
 
 .skill-lvl > .filled {
-    background: #DF691A;
+    background: #df691a;
 }
 
 .skill-lvl > .non-filled {
-    background: #4E5D6C;
+    background: #4e5d6c;
 }
