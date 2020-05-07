@@ -15,5 +15,8 @@
   "portfolio": {
     "main": "Main projects",
     "other": "Other projects"
+  },
+  "skills": {
+    "languages": "Languages"
   }
 }

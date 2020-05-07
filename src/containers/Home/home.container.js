@@ -38,7 +38,7 @@ export const HomeComponent = () => {
 					{csocial.social.map((item) => (
 						<a key={item.key} href={item.to}>
 							<Image src={process.env.PUBLIC_URL + item.icon} style={{height: "50px", margin: "0px 10px"}}
-								   data-toggle="tooltip" title={item.alt} alt={item.alt}/>
+									data-toggle="tooltip" title={item.alt} alt={item.alt}/>
 						</a>
 					))}
 				</Col>

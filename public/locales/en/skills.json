@@ -1,0 +1,14 @@
+{
+  "spanish": {
+    "name": "Spanish",
+    "description": "Native speaker."
+  },
+  "galician": {
+    "name": "Galician",
+    "description": "Native speaker."
+  },
+  "english": {
+    "name": "English",
+    "description": "B2 level."
+  }
+}

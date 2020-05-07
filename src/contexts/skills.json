@@ -1,0 +1,61 @@
+{
+  "languages": [
+    {
+      "name": "spanish",
+      "lvl": 5,
+      "icon": "/img/lang/flag-es.svg"
+    },
+    {
+      "name": "galician",
+      "lvl": 5,
+      "icon": "/img/lang/flag-gl.svg"
+    },
+    {
+      "name": "english",
+      "lvl": 4,
+      "icon": "/img/lang/flag-uk.svg"
+    }
+  ],
+  "skills": [
+    {
+      "type": "codingproficiencies",
+      "proficiencies": [
+        {
+          "name": "Java",
+          "description": "javadesc",
+          "lvl": 4,
+          "icon": "/img/logos/java.svg"
+        },
+        {
+          "name": "C#",
+          "description": "csharpdesc",
+          "lvl": 4,
+          "icon": "/img/logos/java.svg"
+        }
+      ]
+    },
+    {
+      "type": "softwareproficiencies",
+      "proficiencies": [
+        {
+          "name": "Adobe Photoshop",
+          "description": "photoshopdesc",
+          "lvl": 4,
+          "icon": ""
+        },
+        {
+          "name": "C#",
+          "description": "csharpdesc",
+          "lvl": 4,
+          "icon": "/img/logos/java.svg"
+        }
+      ]
+    },
+    {
+      "type": "otherproficiencies",
+      "proficiencies": [
+
+      ]
+    }
+  ]
+}
