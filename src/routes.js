@@ -3,7 +3,7 @@ import {
 	HashRouter as Router,
 	Switch
 } from "react-router-dom";
-import { Home, Portfolio } from "./containers/";
+import { Home, Portfolio, Skills } from "./containers/";
 import { PublicLayout } from "./layouts";
 
 /**
@@ -19,6 +19,7 @@ const Routes = () => {
 				<Switch>
 					<PublicLayout component={Home} 		path={"/bio"} 		exact/> {/* Bio - "/bio" */}
 					<PublicLayout component={Portfolio} path={"/portfolio"} exact/> {/* Portfolio - "/portfolio" */}
+					<PublicLayout component={Skills} 	path={"/skills"} 	exact/> {/* Skills - "/skills" */}
 					<PublicLayout component={Home} path="*"/> {/* All the non existent pages redirects to the Home */}
 				</Switch>
 			</Fragment>

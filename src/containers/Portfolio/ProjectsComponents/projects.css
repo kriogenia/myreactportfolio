@@ -2,15 +2,12 @@
     width: 100%;
     height: 150px;
     background: #2a3542;
-    box-shadow: 0 8px 12px -8px rgba(0,0,0,0.4);
+    box-shadow: 0 8px 12px -8px rgba(0, 0, 0, 0.4);
     border-radius: 6px;
     overflow: hidden;
     position: relative;
     margin: 1rem 0.5rem;
-}
-
-.other-project .expositor {
-    height: 50px;
+    text-align: left;
 }
 
 .expositor h3 {
@@ -21,19 +18,23 @@
     position: absolute;
     width: 150px;
     height: 100%;
-    background: #DF691A;
-    transition: width 0.4s;
+    background: #df691a;
+    transition: width 0.2s;
     overflow: hidden;
     z-index: 2;
 }
 
-.other-project .expositor .expositor-left {
+.other-project .expositor-left {
     width: 10px;
 }
 
 .expositor:hover .expositor-left {
     width: 100%;
     border-radius: 0 5px 5px 0;
+}
+
+.other-project:hover .expositor-left {
+    width: 15px;
 }
 
 .expositor .expositor-left .expositor-image {
@@ -50,7 +51,7 @@
     top: 10%;
     right: -2px;
     height: 80%;
-    border-left: 2px solid rgba(0,0,0,0.025);
+    border-left: 2px solid rgba(0, 0, 0, 0.025);
 }
 
 .expositor .expositor-left .expositor-extra {
@@ -62,7 +63,7 @@
     padding: 0 1rem 1rem;
 }
 
-.other-project .expositor .expositor-left .expositor-extra {
+.other-project .expositor-left .expositor-extra {
     width: 100%;
     left: 15px;
 }
@@ -72,7 +73,12 @@
     color: #fff;
 }
 
-.other-project .expositor .expositor-left .expositor-extra h3 {
+.other-project h3 {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.other-project .expositor-left .expositor-extra h3 {
     margin-top: 10px;
 }
 
@@ -88,7 +94,7 @@
     text-transform: uppercase;
     font-size: 0.75em;
     font-weight: bold;
-    background: rgba(0,0,0,0.15);
+    background: rgba(0, 0, 0, 0.15);
     padding: 0.125rem 0.75rem;
     border-radius: 100px;
     white-space: nowrap;
@@ -113,12 +119,7 @@
     padding: 0 1rem 1rem;
 }
 
-.other-project .expositor .expositor-right {
+.other-project .expositor-right {
     width: 100%;
     left: 15px;
-}
-
-.other-project h3 {
-    margin-top: 10px;
-    text-align: left;
 }

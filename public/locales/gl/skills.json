@@ -1,0 +1,108 @@
+{
+  "titles": {
+    "languages": "Linguas",
+    "coding": "Linguaxes",
+    "software": "Softwares",
+    "fields": "Especialidades"
+  },
+  "spanish": {
+    "name": "Español",
+    "description": "Lingua materna."
+  },
+  "galician": {
+    "name": "Galego",
+    "description": "Lingua materna."
+  },
+  "english": {
+    "name": "Inglés",
+    "description": "Nivel B2."
+  },
+  "portuguese": {
+    "name": "Portugués",
+    "description": "Capaz de comunicarme verbalmente."
+  },
+  "java": {
+    "name": "Java",
+    "description": "O linguaxe co que teño máis experiencia. Gran entendemento de Swing. Experiencia con Spring."
+  },
+  "csharp": {
+    "name": "C#",
+    "description": "Meu linguaxe favorito. Podo facer o que sexa con Linq."
+  },
+  "js": {
+    "name": "Javascript",
+    "description": "O que máis uso recentemente. Xa acumulei un gran número de horas con él."
+  },
+  "react": {
+    "name": "React",
+    "description": "Dous grandes proxectos xa con él. Miña predileción para o desarrollo web."
+  },
+  "html": {
+    "name": "HTML",
+    "description": "Sempre hai algo más que coñecer pero controloo á perfeción."
+  },
+  "css": {
+    "name": "CSS",
+    "description": "Aínda me falta aprender CSS avanzado pero xa podo deseñar o que sexa con él."
+  },
+  "node": {
+    "name": "Node.js",
+    "description": "Aínda estou pendente de realizar un gran proxecto con él, pero manéxome."
+  },
+  "python": {
+    "name": "Python",
+    "description": "Só realicei algúns deberes con él, mais estou interesado en aprender máis."
+  },
+  "cpp": {
+    "name": "C++",
+    "description": "Tamén só uns proxectos de clase, insuficiente para controlar as súas capacidades."
+  },
+  "scala": {
+    "name": "Scala",
+    "description": "Aprendendoo desde fai moi pouco."
+  },
+  "word": {
+    "name": "Microsoft Word",
+    "description": "Non é un gran logro pero manéxome de sobra coas sus características."
+  },
+  "photoshop": {
+    "name": "Adobe Photoshop",
+    "description": "Aprendín vía YouTube, pero xa o usei en entornos profesionais."
+  },
+  "excel": {
+    "name": "Microsoft Excel",
+    "description": "Non coñezo úaus capacidades máis potentes pero sei manexarme de sobra con él."
+  },
+  "ae": {
+    "name": "Adobe After Effects",
+    "description": "Sei crear efectos básicos pero son incapaz de facer cosas complexas."
+  },
+  "premiere": {
+    "name": "Adobe Premiere",
+    "description": "Podo facer un curioso montaxe de vídeo, pero non son un profesional."
+  },
+  "vegas": {
+    "name": "Vegas Pro",
+    "description": "Como Premiere, sei manexalo, pero namais iso."
+  },
+  "web": {
+    "name": "Desarrollo Web",
+    "description": "Este ano converteuse no meu campo de especialización."
+  },
+  "uidesign": {
+    "name": "Deseño UI/UX",
+    "description": "Traballei como deseñador no pasado e iso trasladouse ben a este campo."
+  },
+  "mobile": {
+    "name": "Desarrollo móvil",
+    "description": "Fixen pequenas cousas nese ámbito pero índa non concluín ningún proxecto."
+  },
+  "forensic": {
+    "name": "Informática forense",
+    "description": "Recibín clases de esa materia, pero aínda non apliquei eses coñecementos fóra diso."
+  },
+  "pentesting": {
+    "name": "Pentesting",
+    "description": "Coñezo as directrices máis básicas."
+  }
+}

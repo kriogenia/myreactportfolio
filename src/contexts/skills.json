@@ -1,0 +1,149 @@
+{
+  "list": [
+    {
+      "name": "languages",
+      "proficiencies": [
+        {
+          "name": "spanish",
+          "lvl": 5,
+          "icon": "/img/lang/flag-es.svg"
+        },
+        {
+          "name": "galician",
+          "lvl": 5,
+          "icon": "/img/lang/flag-gl.svg"
+        },
+        {
+          "name": "english",
+          "lvl": 4,
+          "icon": "/img/lang/flag-uk.svg"
+        },
+        {
+          "name": "portuguese",
+          "lvl": 2,
+          "icon": "/img/lang/flag-pt.png"
+        }
+      ]
+    },
+    {
+      "name": "coding",
+      "proficiencies": [
+        {
+          "name": "java",
+          "lvl": 4,
+          "icon": "/img/logos/java.svg"
+        },
+        {
+          "name": "csharp",
+          "lvl": 4,
+          "icon": "/img/logos/csharp.svg"
+        },
+        {
+          "name": "js",
+          "lvl": 4,
+          "icon": "/img/logos/javascript.svg"
+        },
+        {
+          "name": "react",
+          "lvl": 4,
+          "icon": "/img/logos/react.svg"
+        },
+        {
+          "name": "html",
+          "lvl": 4,
+          "icon": "/img/logos/html.svg"
+        },
+        {
+          "name": "css",
+          "lvl": 4,
+          "icon": "/img/logos/css.svg"
+        },
+        {
+          "name": "node",
+          "lvl": 3,
+          "icon": "/img/logos/node.svg"
+        },
+        {
+          "name": "python",
+          "lvl": 2,
+          "icon": "/img/logos/python.svg"
+        },
+        {
+          "name": "cpp",
+          "lvl": 2,
+          "icon": "/img/logos/cpp.svg"
+        },
+        {
+          "name": "scala",
+          "lvl": 1,
+          "icon": "/img/logos/scala.svg"
+        }
+      ]
+    },
+    {
+      "name": "software",
+      "proficiencies": [
+        {
+          "name": "word",
+          "lvl": 5,
+          "icon": "/img/logos/word.svg"
+        },
+        {
+          "name": "photoshop",
+          "lvl": 4,
+          "icon": "/img/logos/photoshop.svg"
+        },
+        {
+          "name": "excel",
+          "lvl": 4,
+          "icon": "/img/logos/excel.svg"
+        },
+        {
+          "name": "ae",
+          "lvl": 2,
+          "icon": "/img/logos/ae.svg"
+        },
+        {
+          "name": "premiere",
+          "lvl": 2,
+          "icon": "/img/logos/premiere.svg"
+        },
+        {
+          "name": "vegas",
+          "lvl": 2,
+          "icon": "/img/logos/vegas.png"
+        }
+      ]
+    },
+    {
+      "name": "fields",
+      "proficiencies": [
+        {
+          "name": "web",
+          "lvl": 4,
+          "icon": "/img/icons/web.png"
+        },
+        {
+          "name": "uidesign",
+          "lvl": 3,
+          "icon": "/img/icons/ui.png"
+        },
+        {
+          "name": "mobile",
+          "lvl": 3,
+          "icon": "/img/icons/mobile.png"
+        },
+        {
+          "name": "forensic",
+          "lvl": 3,
+          "icon": "/img/icons/forensic.png"
+        },
+        {
+          "name": "pentesting",
+          "lvl": 1,
+          "icon": "/img/icons/pentesting.png"
+        }
+      ]
+    }
+  ]
+}

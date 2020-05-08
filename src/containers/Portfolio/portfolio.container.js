@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
-import {Spacer} from "../../components";
+import {Spacer, CardSlider} from "../../components";
 import {useTranslation} from "react-i18next";
 import {MainProjectComponent, OtherProjectComponent} from "./ProjectsComponents";
 import {cportfolio} from "../../contexts";
@@ -33,17 +33,7 @@ export const PortfolioComponent = () => {
 					<h2>{t("portfolio.other")}</h2>
 				</Col>
 			</Row>
-			<Row className="justify-content-md-center">
-				<Col md={12} lg={2}/>
-				<Col md={12} lg={8}>
-					<Row>
-						{cportfolio.other.map((project) =>
-							<OtherProjectComponent name={project.name} href={project.href}/>
-						)}
-					</Row>
-				</Col>
-				<Col md={12} lg={2}/>
-			</Row>
+			<CardSlider component={OtherProjectComponent} cards={cportfolio.other}/>
 		</div>
 	);
 };
