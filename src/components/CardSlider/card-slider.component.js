@@ -10,17 +10,16 @@ export const CardSliderComponent = ({component:Component, cards}) => {
 
 	const reload = () => {
 		loadedCards = [];
-		for (let i = index; i <= Math.min(index + 2, cards.length - 1); i++)
-			loadedCards.push(i);
+		for (let i = index; i <= Math.min(index + 2, cards.length - 1); i++) { loadedCards.push(i); }
 	};
 
 	const moveLeft = () => {
-		setIndex(index-1);
+		setIndex(index-3);
 		reload();
 	};
 
 	const moveRight = () => {
-		setIndex(index+1);
+		setIndex(index+3);
 		reload();
 	};
 

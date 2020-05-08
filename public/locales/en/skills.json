@@ -1,8 +1,9 @@
 {
   "titles": {
-      "languages": "Languages",
-      "coding": "Coding",
-      "software": "Softwares"
+    "languages": "Languages",
+    "coding": "Coding",
+    "software": "Softwares",
+    "fields": "Fields"
   },
   "spanish": {
     "name": "Spanish",
@@ -35,5 +36,73 @@
   "react": {
     "name": "React",
     "description": "Two big projects working with it. My predilect way to build websites."
+  },
+  "html": {
+    "name": "HTML",
+    "description": "There's always something else to learn but as web developer I control a lot of it."
+  },
+  "css": {
+    "name": "CSS",
+    "description": "I still need to learn advance CSS but I can build you whatever with it."
+  },
+  "node": {
+    "name": "Node.js",
+    "description": "Still needing to get into some big project but I know the important stuff."
+  },
+  "python": {
+    "name": "Python",
+    "description": "Only some little school assignments. Interested in trying more."
+  },
+  "cpp": {
+    "name": "C++",
+    "description": "Also some school projects, not enough to learn all its power."
+  },
+  "scala": {
+    "name": "Scala",
+    "description": "Starting to learn it."
+  },
+  "word": {
+    "name": "Microsoft Word",
+    "description": "It's not a big achievement, but I know to use all its features."
+  },
+  "photoshop": {
+    "name": "Adobe Photoshop",
+    "description": "Learned it via YouTube, but I've worked with it professionally."
+  },
+  "excel": {
+    "name": "Microsoft Excel",
+    "description": "I don't know to do the most complex stuff but I pilot the rest."
+  },
+  "ae": {
+    "name": "Adobe After Effects",
+    "description": "I know to create some nice effects, but I'm far from know a lot."
+  },
+  "premiere": {
+    "name": "Adobe Premiere",
+    "description": "I can make you a really nice edit, but I'm not an editor tho."
+  },
+  "vegas": {
+    "name": "Vegas Pro",
+    "description": "Like Premiere, I know to do things, but just that."
+  },
+  "web": {
+    "name": "Web Development",
+    "description": "In recent time the field I'm becoming more specialized with."
+  },
+  "uidesign": {
+    "name": "UI/UX design",
+    "description": "I did work as designer in the past, that translated well to my front-end skills."
+  },
+  "mobile": {
+    "name": "Mobile development",
+    "description": "I've made some attempts with it, but not a single big project made yet."
+  },
+  "forensic": {
+    "name": "Computer forensics",
+    "description": "I was isntructed on it, not real application of those knowdlegdes yet."
+  },
+  "pentesting": {
+    "name": "Pentesting",
+    "description": "Know about the very basics."
   }
 }

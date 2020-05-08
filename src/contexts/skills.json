@@ -114,6 +114,36 @@
           "icon": "/img/logos/vegas.png"
         }
       ]
+    },
+    {
+      "name": "fields",
+      "proficiencies": [
+        {
+          "name": "web",
+          "lvl": 4,
+          "icon": "/img/logos/excel.svg"
+        },
+        {
+          "name": "uidesign",
+          "lvl": 3,
+          "icon": "/img/logos/excel.svg"
+        },
+        {
+          "name": "mobile",
+          "lvl": 3,
+          "icon": "/img/logos/excel.svg"
+        },
+        {
+          "name": "forensic",
+          "lvl": 3,
+          "icon": "/img/logos/word.svg"
+        },
+        {
+          "name": "pentesting",
+          "lvl": 1,
+          "icon": "/img/logos/photoshop.svg"
+        }
+      ]
     }
   ]
 }
