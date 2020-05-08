@@ -1,6 +1,6 @@
 import React from "react";
 import {Route} from "react-router-dom";
-import {Footer, NavBar} from "../../components";
+import {Footer, NavBar, Spacer} from "../../components";
 
 /**
  * Builds a Route decorating the component with the NavBar and footer
@@ -15,6 +15,7 @@ const PublicLayout = (props) => {
 				<div>
 					<NavBar/>
 					<Component {...{ history, location, match }} />
+					<Spacer height={100}/>
 					<Footer/>
 				</div>
 			)}

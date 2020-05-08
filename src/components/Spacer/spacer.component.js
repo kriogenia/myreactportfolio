@@ -1,9 +1,9 @@
 import React from "react";
 import "./spacer.component.css";
 
-const Spacer = () => {
+const Spacer = ({height}) => {
 	return (
-		<div className="spacer">
+		<div className={"w-100"} style={{height: height}}>
 			&nbsp;
 		</div>
 	);

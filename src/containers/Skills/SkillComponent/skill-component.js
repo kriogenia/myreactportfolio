@@ -29,6 +29,6 @@ export const SkillComponent = ({object}) => {
 				</div>
 			</div>
 		</div>
-	)
+	);
 
 };
