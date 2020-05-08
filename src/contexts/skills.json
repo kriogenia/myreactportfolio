@@ -121,27 +121,27 @@
         {
           "name": "web",
           "lvl": 4,
-          "icon": "/img/logos/excel.svg"
+          "icon": "/img/icons/web.png"
         },
         {
           "name": "uidesign",
           "lvl": 3,
-          "icon": "/img/logos/excel.svg"
+          "icon": "/img/icons/ui.png"
         },
         {
           "name": "mobile",
           "lvl": 3,
-          "icon": "/img/logos/excel.svg"
+          "icon": "/img/icons/mobile.png"
         },
         {
           "name": "forensic",
           "lvl": 3,
-          "icon": "/img/logos/word.svg"
+          "icon": "/img/icons/forensic.png"
         },
         {
           "name": "pentesting",
           "lvl": 1,
-          "icon": "/img/logos/photoshop.svg"
+          "icon": "/img/icons/pentesting.png"
         }
       ]
     }

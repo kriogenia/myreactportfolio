@@ -1,0 +1,108 @@
+{
+  "titles": {
+    "languages": "Idiomas",
+    "coding": "Lenguajes",
+    "software": "Softwares",
+    "fields": "Especialidades"
+  },
+  "spanish": {
+    "name": "Español",
+    "description": "Lengua materna."
+  },
+  "galician": {
+    "name": "Gallego",
+    "description": "Lengua materna."
+  },
+  "english": {
+    "name": "Inglés",
+    "description": "Nivel B2."
+  },
+  "portuguese": {
+    "name": "Portugués",
+    "description": "Capaz de comunicarme verbalmente."
+  },
+  "java": {
+    "name": "Java",
+    "description": "El lenguaje con el que tengo más experiencia. Gran entendimiento de Swing. Experiencia con Spring."
+  },
+  "csharp": {
+    "name": "C#",
+    "description": "Mi lenguaje favorito. Puedo hacer lo que sea con Linq."
+  },
+  "js": {
+    "name": "Javascript",
+    "description": "Lo que más uso recientemente. Ya he acumulado un gran número de horas con él."
+  },
+  "react": {
+    "name": "React",
+    "description": "Dos grandes proyectos ya con él. Mi predilección para el desarrollo web."
+  },
+  "html": {
+    "name": "HTML",
+    "description": "Siempre hay algo más que conocer pero lo controlo perfectamente."
+  },
+  "css": {
+    "name": "CSS",
+    "description": "Aún me falta aprender CSS avanzado pero ya puedo diseñar lo que sea con él."
+  },
+  "node": {
+    "name": "Node.js",
+    "description": "Aún estoy pendiente de realizar un gran proyecto con él, pero controlo de él."
+  },
+  "python": {
+    "name": "Python",
+    "description": "Sólo he realizado algunos deberes con él, pero estoy interesado en aprender más."
+  },
+  "cpp": {
+    "name": "C++",
+    "description": "También solo unos proyectos de clase, insuficiente para controlar sus capacidades."
+  },
+  "scala": {
+    "name": "Scala",
+    "description": "Aprendiéndolo desde hace poco."
+  },
+  "word": {
+    "name": "Microsoft Word",
+    "description": "No es un gran logro pero me manejo de sobra con sus características."
+  },
+  "photoshop": {
+    "name": "Adobe Photoshop",
+    "description": "Aprendí vía YouTube, pero ya lo he usado en entornos profesionales."
+  },
+  "excel": {
+    "name": "Microsoft Excel",
+    "description": "No conozco sus capacidades más potentes pero sé manejarme de sobra con él."
+  },
+  "ae": {
+    "name": "Adobe After Effects",
+    "description": "Sé crear efectos básicos pero incapaz de hacer cosas complejas."
+  },
+  "premiere": {
+    "name": "Adobe Premiere",
+    "description": "Puedo hacer un curioso montaje de vídeo, pero no soy un profesional."
+  },
+  "vegas": {
+    "name": "Vegas Pro",
+    "description": "Como Premiere, sé manejarlo, pero solo eso."
+  },
+  "web": {
+    "name": "Desarrollo Web",
+    "description": "Este año se ha convertido en mi campo de especialización."
+  },
+  "uidesign": {
+    "name": "Diseño UI/UX",
+    "description": "Trabajé como diseñador en el pasado y eso se ha trasladado bien a este campo."
+  },
+  "mobile": {
+    "name": "Desarrollo móvil",
+    "description": "He hecho pequeñas cosas en ese ámbito pero aún no he concluído ningún proyecto."
+  },
+  "forensic": {
+    "name": "Informática forense",
+    "description": "He recibido clases de esta materia, pero aún no apliqué esos conocimientos fuera de eso."
+  },
+  "pentesting": {
+    "name": "Pentesting",
+    "description": "Conozco las directrices más básicas."
+  }
+}

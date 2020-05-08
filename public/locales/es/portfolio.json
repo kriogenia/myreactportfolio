@@ -12,17 +12,20 @@
     "description": "Aplicación de consola y escritorio para generar listas ordenadas por medio de enfrentamientos entre los participantes listados, con gran uso de programación funcional."
   },
   "SEW - HTML/CSS": {
-    "name": "SEW - HTML/CSS"
+    "name": "SEW - HTML/CSS",
+    "description": "Pequeña página de HTML y CSS para la asignatura Software y Estándares para la Web del tercer curso de la Universidad de Oviedo."
   },
   "SEW - Javascript": {
-    "name": "SEW - Javascript"
+    "name": "SEW - Javascript",
+    "description": "Pequeños proyectos Javascript para la asignatura Software y Estándares para la Web del tercer curso de la Universidad de Oviedo."
   },
   "This web": {
     "name": "Esta página plantilla",
     "description": "Mi propia página web portfolio y a su vez una página diseñada para ser fácilmente expandible y modificable de forma que es una plantilla perfecta a partir de la cual cada uno puede desarrollar la suya propia."
   },
   "UniOvi Server Bot": {
-    "name": "UniOvi Server Bot"
+    "name": "UniOvi Server Bot",
+    "description": "Bot de Discord muy básico para un servidor universitario."
   },
   "Viade": {
     "name": "Viade",
