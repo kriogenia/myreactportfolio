@@ -1,0 +1,16 @@
+{
+  "titles": {
+    "from": "Desde",
+    "to": "Hasta",
+    "what": "Que",
+    "where": "Donde"
+  },
+  "other": {
+    "udc": "Universidad de A Coruña",
+    "comeng": "Grado en Ingeniería Informática",
+    "freelancer": "Autónomo",
+    "branddesigner": "Diseñador de la marca del Bar Avoa",
+    "uniovi": "Universidad de Oviedo",
+    "sofeng": "Grado en Ingeniería Informática del Software"
+  }
+}

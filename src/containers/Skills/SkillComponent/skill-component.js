@@ -24,12 +24,11 @@ export const SkillComponent = ({object}) => {
 			<div className="skill-right">
 				Lvl. {lvl}/5
 				<div className="skill-lvl">
-					{[1,2,3,4,5].map((x) => {
-						return (
-							<div key={`sb-${x}`} className={`skill-bar ${x<=lvl ? "filled" : "non-filled"}`}>
-								&nbsp;
-							</div>);
-					})}
+					{[1,2,3,4,5].map((x) =>
+						<div key={`sb-${x}`} className={`skill-bar ${x<=lvl ? "filled" : "non-filled"}`}>
+							&nbsp;
+						</div>
+					)}
 				</div>
 			</div>
 		</div>

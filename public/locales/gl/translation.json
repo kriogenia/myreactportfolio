@@ -17,6 +17,8 @@
     "other": "Outros proxectos"
   },
   "cv": {
-    "title": "Curriculum Vitae"
+    "title": "Curriculum Vitae",
+    "studies": "Estudos",
+    "jobs": "Empleos"
   }
 }

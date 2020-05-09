@@ -9,7 +9,7 @@ i18n
 	.use(initReactI18next) 		// passes i18n down to react-i18next
 	.init({
 		fallbackLng: "en", 		// use en if detected lng is not available
-		ns: ["translation", "bio", "portfolio", "skills"],
+		ns: ["translation", "bio", "portfolio", "skills", "cv"],
 		debug: true,
 		saveMissing: true,
 		backend: {

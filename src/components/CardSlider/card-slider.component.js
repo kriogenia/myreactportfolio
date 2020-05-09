@@ -46,12 +46,11 @@ export const CardSliderComponent = ({component:Component, cards}) => {
 			<Col xs={12} sm={12} md={12} lg={8} xl={8} key={"cs-col3"}>
 				<Row>
 					{/* Set of cards to print */}
-					{loadedCards.map((i) => {
-						return (
-							<Col md={12} lg={4} key={`cs-card${i}`}>
-								<Component object={cards[i]}/>
-							</Col>	);
-					})}
+					{loadedCards.map((i) =>
+						<Col md={12} lg={4} key={`cs-card${i}`}>
+							<Component object={cards[i]}/>
+						</Col>
+					)}
 				</Row>
 			</Col>
 			<Col xs={12} sm={12} md={12} lg={1} xl={1} key={"cs-col4"}>

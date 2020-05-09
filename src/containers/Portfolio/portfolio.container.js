@@ -15,9 +15,7 @@ export const PortfolioComponent = () => {
 	return (
 		<div className="App">
 			<Row className="justify-content-md-center">
-				<Col xs={12} sm={12} md={12} lg={12} xl={12}>
-					<h1 className={"page-title"}>{t("portfolio.main")}</h1>
-				</Col>
+				<h1 className={"page-title"}>{t("portfolio.main")}</h1>
 			</Row>
 			<Row className="justify-content-md-center">
 				<Col key={"c1"} xs={12} sm={12} md={12} lg={2} xl={2}/>

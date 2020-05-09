@@ -14,7 +14,7 @@ const NavChildren = () => {
 
 	return (
 		<Nav> {/* Links */}
-			{cnavbar.navbar.map((item) => (
+			{cnavbar.navbar.map((item) =>
 				<NavLink key={item.key} to={item.to} activeClassName="active" className="nav-link">
 						<span className="icon">
 						<img
@@ -28,7 +28,7 @@ const NavChildren = () => {
 							</span>
 					<span className="label">{t(item.label)}</span>
 				</NavLink>
-			))}
+			)}
 		</Nav>
 	);
 };

@@ -1,0 +1,16 @@
+{
+  "titles": {
+    "from": "From",
+    "to": "To",
+    "what": "What",
+    "where": "Where"
+  },
+  "other": {
+    "udc": "University of A Coruña",
+    "comeng": "Computer Engineering Degree",
+    "freelancer": "Freelancer",
+    "branddesigner": "Brand Designer of Avoa Bar",
+    "uniovi": "University of Oviedo",
+    "sofeng": "Software Engineering Degree"
+  }
+}

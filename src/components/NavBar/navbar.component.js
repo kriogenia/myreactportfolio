@@ -31,10 +31,10 @@ const NavBar = () => {
 				</Suspense>
 				<Nav className="mr-auto"/> 								{/* Empty space */}
 				<Nav className="collapse-languages"> 					{/* Language buttons */}
-					{clanguages.languages.map((item) => (
+					{clanguages.languages.map((item) =>
 						<Image key={item.key} onClick={() => changeLanguage(item.code)}
 							src={process.env.PUBLIC_URL + item.icon} alt={t(item.alt)} className="nav-img flag-img"/>
-					))}
+					)}
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
