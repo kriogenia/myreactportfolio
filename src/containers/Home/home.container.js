@@ -24,7 +24,7 @@ export const HomeComponent = () => {
 					<Image src={me} style={{height: "200px"}} alt={t("bio:name")}/>
 					<h1>{t("bio:name")} <span className="surname text-primary">{t("bio:surname")}</span></h1>
 					<hr/>
-					{[1,2,3].map((x) => {return <p key={`hp-${x}`}>{t(`bio:p${x}`)}</p>})}		{/* p's */}
+					{[1,2,3].map((x) => {return <p key={`hp-${x}`}>{t(`bio:p${x}`)}</p>;})}		{/* p's */}
 				</Col>
 				<Col md={12} lg={3}/>
 			</Row>
