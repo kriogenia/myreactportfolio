@@ -1,7 +1,9 @@
 import React from "react";
 import Spinner from "react-bootstrap/Spinner";
 
-// Helds the app while loading
+/**
+ * @returns {div}	Spinner to display while loading components
+ */
 const Loader = () => (
 	<div className="App">
 		<Spinner animation="border" role="status" variant="primary">

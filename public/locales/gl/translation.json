@@ -15,5 +15,10 @@
   "portfolio": {
     "main": "Proxectos destacábeis",
     "other": "Outros proxectos"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "studies": "Estudos",
+    "jobs": "Empleos"
   }
 }

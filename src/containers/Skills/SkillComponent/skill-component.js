@@ -2,6 +2,10 @@ import React from "react";
 import {useTranslation} from "react-i18next";
 import "./skill-component.css";
 
+/**
+ * @param object	Object to build the component
+ * @returns {div}	Card of the skill
+ */
 export const SkillComponent = ({object}) => {
 
 	const {t} = useTranslation();
@@ -20,15 +24,14 @@ export const SkillComponent = ({object}) => {
 			<div className="skill-right">
 				Lvl. {lvl}/5
 				<div className="skill-lvl">
-					{[1,2,3,4,5].map((x) => {
-						return (
-							<div key={`sb-${x}`} className={`skill-bar ${x<=lvl ? "filled" : "non-filled"}`}>
-								&nbsp;
-							</div>);
-					})}
+					{[1,2,3,4,5].map((x) =>
+						<div key={`sb-${x}`} className={`skill-bar ${x<=lvl ? "filled" : "non-filled"}`}>
+							&nbsp;
+						</div>
+					)}
 				</div>
 			</div>
 		</div>
-	)
+	);
 
 };

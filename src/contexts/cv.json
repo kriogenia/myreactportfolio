@@ -1,0 +1,32 @@
+{
+  "cv": {
+    "sections": [
+      "from",
+      "to",
+      "where",
+      "what"
+    ],
+    "studies": [
+      [
+        2013,
+        2016,
+        "udc",
+        "comeng"
+      ],
+      [
+        2017,
+        2020,
+        "uniovi",
+        "sofeng"
+      ]
+    ],
+    "jobs": [
+      [
+        2016,
+        2017,
+        "freelancer",
+        "branddesigner"
+      ]
+    ]
+  }
+}

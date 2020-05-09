@@ -15,5 +15,10 @@
   "portfolio": {
     "main": "Main projects",
     "other": "Other projects"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "studies": "Studies",
+    "jobs": "Jobs"
   }
 }
