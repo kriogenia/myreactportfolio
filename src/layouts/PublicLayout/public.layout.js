@@ -7,7 +7,9 @@ import {Footer, NavBar, Spacer} from "../../components";
  * @param props	Contains the Component and the path
  */
 const PublicLayout = (props) => {
+
 	const { component: Component, ...rest } = props;
+
 	return (
 		<Route
 			{...rest}

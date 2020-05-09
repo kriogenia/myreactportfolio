@@ -7,13 +7,14 @@ import {clanguages} from "../../contexts";
 import "./navbar.css";
 
 /**
- * Navigation bar of the page
- *  @returns {*}
+ * @returns {navbar}	Navigation bar of the web page
  */
 const NavBar = () => {
 
+	// Internationalization
 	const { t } = useTranslation();
 
+	// Changes the language
 	const changeLanguage = (lng) => {
 		i18n.changeLanguage(lng);
 	};
@@ -26,10 +27,10 @@ const NavBar = () => {
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Suspense fallback={<Nav>Loading...</Nav>}>
-					<NavChildren/>
+					<NavChildren/>										{/* Navbar options */}
 				</Suspense>
-				<Nav className="mr-auto"/> {/* Empty space */}
-				<Nav className="collapse-languages"> {/* Language buttons */}
+				<Nav className="mr-auto"/> 								{/* Empty space */}
+				<Nav className="collapse-languages"> 					{/* Language buttons */}
 					{clanguages.languages.map((item) => (
 						<Image key={item.key} onClick={() => changeLanguage(item.code)}
 							src={process.env.PUBLIC_URL + item.icon} alt={t(item.alt)} className="nav-img flag-img"/>

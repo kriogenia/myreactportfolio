@@ -2,6 +2,9 @@ import React from "react";
 import { MDBContainer, MDBFooter } from "mdbreact";
 import "./footer.css";
 
+/**
+ * @returns {div}	Footer component of the web
+ */
 const Footer = () => {
 	return (
 		<MDBFooter color="primary bg-dark footer" className="font-small pt-4 mt-4">

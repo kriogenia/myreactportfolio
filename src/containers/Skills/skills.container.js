@@ -5,6 +5,9 @@ import {CardSlider} from "../../components";
 import SkillComponent from "./SkillComponent";
 import {cskills} from "../../contexts";
 
+/**
+ * @returns {div}	Skills page
+ */
 export const SkillsComponent = () => {
 
 	const {t} = useTranslation();

@@ -2,6 +2,10 @@ import React from "react";
 import {useTranslation} from "react-i18next";
 import "./skill-component.css";
 
+/**
+ * @param object	Object to build the component
+ * @returns {div}	Card of the skill
+ */
 export const SkillComponent = ({object}) => {
 
 	const {t} = useTranslation();

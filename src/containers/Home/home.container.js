@@ -6,23 +6,25 @@ import {csocial} from "../../contexts";
 import me from "./img";
 import "./home.css";
 
+/**
+ * @returns {div}	Home page
+ */
 export const HomeComponent = () => {
+
 	const {t} = useTranslation();
 
 	return (
 		<div className="App">
 			<Row className="justify-content-md-center">
-				<Spacer/>
+				<Spacer height={60}/>
 			</Row>
 			<Row className="justify-content-md-center">
 				<Col md={12} lg={3}/>
 				<Col md={12} lg={6}>
-					<Image src={me} style={{height: "200px"}} alt="Ricardo Soto Estévez"/>
+					<Image src={me} style={{height: "200px"}} alt={t("bio:name")}/>
 					<h1>{t("bio:name")} <span className="surname text-primary">{t("bio:surname")}</span></h1>
 					<hr/>
-					<p>{t("bio:p1")}</p>
-					<p>{t("bio:p2")}</p>
-					<p>{t("bio:p3")}</p>
+					{[1,2,3].map((x) => {return <p key={`hp-${x}`}>{t(`bio:p${x}`)}</p>})}		{/* p's */}
 				</Col>
 				<Col md={12} lg={3}/>
 			</Row>

@@ -2,11 +2,16 @@ import React from "react";
 import "./projects.css";
 import {useTranslation} from "react-i18next";
 
-export const OtherProjectComponent = (props) => {
+/**
+ * @param object	Object to use in the construction of the card
+ * @returns {div}	Card displaying the component
+ */
+export const OtherProjectComponent = ({object}) => {
 
 	const {t} = useTranslation();
 
-	const {name, href} = props.object;
+	// Fields of the object to use
+	const {name, href} = object;
 
 	return (
 		<div className="other-project expositor">
