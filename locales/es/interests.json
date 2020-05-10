@@ -1,0 +1,45 @@
+{
+  "3gatsu": "El León de Marzo",
+  "animation": {
+    "name": "Animación",
+    "description": "Aunque no veo tanto como antes"
+  },
+  "basket": "Baloncesto",
+  "drawing": "Dibujo",
+  "ds": "Dark Souls",
+  "editing": "Edición",
+  "escapes": "Escape Rooms",
+  "eva": "Neon Genesis Evangelion",
+  "films": {
+    "name": "Cine",
+    "description": "Cada miércoles en mi cine cercano"
+  },
+  "futsal": "Fútbol sala",
+  "hollow": "Hollow Knight",
+  "lionking": "El Rey León",
+  "literature": {
+    "name": "Literatura",
+    "description": "Solía leer mucho más antes pero Branderson me ha devuelto a ello"
+  },
+  "me": "Mass Effect",
+  "minecraft": "Minecraft",
+  "op": "One Piece",
+  "others": {
+    "name": "Otros",
+    "description": ""
+  },
+  "parasite": "Parasite",
+  "rakugo": "Showa Genroku Rakugo Shinju",
+  "tlotr": "El Señor de los Anillos",
+  "shawshank": "Cadena Perpetua",
+  "sports": {
+    "name": "Deporte",
+    "description": "Antes jugaba en equipos, ahora juego de vez en cuando"
+  },
+  "steins": "Steins;Gate",
+  "stormlight": "El Archivo de las Tormentas",
+  "videogames": {
+    "name": "Videojuegos",
+    "description": "Mi principal hobby desde niño. Ávido PC Gamer"
+  }
+}

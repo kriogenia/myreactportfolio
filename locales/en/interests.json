@@ -1,0 +1,45 @@
+{
+  "3gatsu": "March Comes in Like a Lion",
+  "animation": {
+    "name": "Animation",
+    "description": "I'm far from watching as much as I did"
+  },
+  "basket": "Basketball",
+  "drawing": "Drawing",
+  "ds": "Dark Souls",
+  "editing": "Editing",
+  "escapes": "Escape Rooms",
+  "eva": "Neon Genesis Evangelion",
+  "films": {
+    "name": "Films",
+    "description": "I try to go at least once a week to my local cinema"
+  },
+  "futsal": "Five-a-side football",
+  "hollow": "Hollow Knight",
+  "lionking": "The Lion King",
+  "literature": {
+    "name": "Literature",
+    "description": "I used to read a lot more but Branderson brought me back to it"
+  },
+  "me": "Mass Effect",
+  "minecraft": "Minecraft",
+  "op": "One Piece",
+  "others": {
+    "name": "Others",
+    "description": ""
+  },
+  "parasite": "Parasite",
+  "rakugo": "Descending Stories: Showa Genroku Rakugo Shinju",
+  "tlotr": "The Lord of the Rings",
+  "shawshank": "The Shawshank Redemption",
+  "sports": {
+    "name": "Sports",
+    "description": "I used to be on teams, now I only play from time to time"
+  },
+  "steins": "Steins;Gate",
+  "stormlight": "The Stormlight Archive",
+  "videogames": {
+    "name": "Videogames",
+    "description": "My main hobby since kid. Avid PC Gamer"
+  }
+}

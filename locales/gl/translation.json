@@ -1,0 +1,27 @@
+{
+  "bio": {
+    "social": "Redes sociais"
+  },
+  "navbar": {
+    "bio": "Biografía",
+    "portfolio": "Portfolio",
+    "skills": "Habilidades",
+    "cv": "Curriculum Vitae",
+    "interests": "Intereses",
+    "en": "Inglés",
+    "es": "Español",
+    "gl": "Galego"
+  },
+  "portfolio": {
+    "main": "Proxectos destacábeis",
+    "other": "Outros proxectos"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "studies": "Estudos",
+    "jobs": "Empleos"
+  },
+  "interests": {
+    "title": "Intereses"
+  }
+}

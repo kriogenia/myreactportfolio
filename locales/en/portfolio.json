@@ -1,0 +1,34 @@
+{
+  "CPM": {
+    "name": "CPM module",
+    "description": "Approximation to a party planning app made with Swing to the subject of Machine-Person Communication of University of Oviedo 2nd course."
+  },
+  "IPS": {
+    "name": "IPS module",
+    "description": "Hospital manager application made during the Engineering of Software Process of University of Oviedo 3rd course."
+  },
+  "MatchAndRank": {
+    "name": "MatchAndRank",
+    "description": "Console and desktop application to sort list through a series of match-up between the contendants, made with a lot of functional programming."
+  },
+  "SEW - HTML/CSS": {
+    "name": "SEW - HTML/CSS",
+    "description": "Little HTML and CSS webpage to the Software and Standards for the Web course of the University of Oviedo 3rd course"
+  },
+  "SEW - Javascript": {
+    "name": "SEW - Javascript",
+    "description": "Little Javascript projects to the Software and Standards for the Web course of the University of Oviedo 3rd course"
+  },
+  "This web": {
+    "name": "This template web",
+    "description": "My own portfolio web, designed to also be an easily customizable and expandable template web to build your own from it."
+  },
+  "UniOvi Server Bot": {
+    "name": "UniOvi Server Bot",
+    "description": "Very basic Discord bot for an university server."
+  },
+  "Viade": {
+    "name": "Viade",
+    "description": "SOLID-based application of route management and sharing developed during the Architecture Software subject of University of Oviedo 3rd course."
+  }
+}
