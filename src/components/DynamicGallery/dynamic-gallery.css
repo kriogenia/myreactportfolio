@@ -1,0 +1,22 @@
+.interest-container {
+    height: 500px;
+    width: 100%;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.interest-figure {
+    height: 100%;
+}
+
+.expand {
+    grid-column: 1 / 3;
+}
+
+.interest-figure > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

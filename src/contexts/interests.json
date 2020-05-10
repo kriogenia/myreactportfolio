@@ -1,0 +1,110 @@
+{
+  "interests": [
+      {
+        "name": "videogames",
+        "images": [
+          {
+            "name": "hollow",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "ds",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "me",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "minecraft",
+            "src": "/img/thumbnails/hollow.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "literature",
+        "images": [
+          {
+            "name": "op",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "tlotr",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "stormlight",
+            "src": "/img/thumbnails/hollow.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "films",
+        "images": [
+          {
+            "name": "shawshank",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "parasite",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "lionking",
+            "src": "/img/thumbnails/hollow.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "animation",
+        "images": [
+          {
+            "name": "eva",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "steins",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "rakugo",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "3gatsu",
+            "src": "/img/thumbnails/hollow.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "sports",
+        "images": [
+          {
+            "name": "basket",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "futsal",
+            "src": "/img/thumbnails/hollow.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "others",
+        "images": [
+          {
+            "name": "drawing",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "editing",
+            "src": "/img/thumbnails/hollow.jpeg"
+          },
+          {
+            "name": "escapes",
+            "src": "/img/thumbnails/hollow.jpeg"
+          }
+        ]
+      }
+    ]
+}

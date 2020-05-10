@@ -6,11 +6,11 @@
       "href": "https://github.com/kriogenia/myreactportfolio",
       "logos": [
         {
-          "icon": "/img/logos/react.svg",
+          "icon": "/img/logos/react-alt.svg",
           "name": "React"
         },
         {
-          "icon": "/img/logos/javascript.svg",
+          "icon": "/img/logos/javascript-alt.svg",
           "name": "javascript"
         }
       ]
@@ -21,7 +21,7 @@
       "href": "https://github.com/kriogenia/MatchAndRank",
       "logos": [
         {
-          "icon": "/img/logos/csharp.svg",
+          "icon": "/img/logos/csharp-alt.svg",
           "name": "C#"
         }
       ]
@@ -32,15 +32,15 @@
       "href": "https://github.com/Arquisoft/viade_es4c",
       "logos": [
         {
-          "icon": "/img/logos/react.svg",
+          "icon": "/img/logos/react-alt.svg",
           "name": "React"
         },
         {
-          "icon": "/img/logos/javascript.svg",
+          "icon": "/img/logos/javascript-alt.svg",
           "name": "javascript"
         },
         {
-          "icon": "/img/logos/solid.svg",
+          "icon": "/img/logos/solid-alt.svg",
           "name": "Solid"
         }
       ]
@@ -51,11 +51,11 @@
       "href": "https://github.com/kriogenia/IPS-Gestion-de-Hospitales",
       "logos": [
         {
-          "icon": "/img/logos/java.svg",
+          "icon": "/img/logos/java-alt.svg",
           "name": "Java"
         },
         {
-          "icon": "/img/logos/spring.svg",
+          "icon": "/img/logos/spring-alt.svg",
           "name": "SpringBoot"
         }
       ]
