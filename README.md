@@ -72,6 +72,19 @@ the different sections with a codename and its proficiencies. At the same time t
 and an icon. Like the portfolio page you define its names and descriptions in  **/public/locales/{lang}/skills.json**.
 (Take into account the section titles go in titles).
 
+#### CV
+
+The CV page consists on two tables. To fill we go to **configs/cv.json**. In sections you define the table columns,
+then in studies you enumerates each row as a vector with the same number of fields as sections you specified. Same
+with jobs. Take into account in that JSON you only define the codenames to get the strings from the internationalization
+files, in this case **/public/locales/{lang}/cv.json**, as expected.
+
+#### Interests
+
+Finally, the interests are an array of objects. Those need its codename and the list of images it will have, from one
+to four. Those images are defined with the name and their link. Just that. Well, you also need to extend the names
+and descriptions in the  **/public/locales/{lang}/interests.json**, but at this point you already knows that.
+
 ## Utilities
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Continuous integration served by [Travis CI](https://travis-ci.org/). Code quality analysis of [Codacy](https://codacy.com/). Website style using [Bootstrap](https://react-bootstrap.github.io/) and customized [Superhero](https://bootswatch.com/superhero/) theme. Internationalization handled with [react-i18next](https://react.i18next.com/). The icons come from [freepick](https://www.freepik.es/).

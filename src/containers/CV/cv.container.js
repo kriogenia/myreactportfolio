@@ -4,6 +4,9 @@ import {useTranslation} from "react-i18next";
 import {ccv} from "../../contexts";
 import CVTable from "./CVTable";
 
+/**
+ * @returns {div}	Curriculum Vitae page
+ */
 export const CVComponent = () => {
 
 	const {t} = useTranslation();

@@ -1,0 +1,45 @@
+{
+  "3gatsu": "3gatsu no Lion",
+  "animation": {
+    "name": "Animación",
+    "description": "Aínda que non vexo tanto coma antes"
+  },
+  "basket": "Baloncesto",
+  "drawing": "Debuxo",
+  "ds": "Dark Souls",
+  "editing": "Edición",
+  "escapes": "Escape Rooms",
+  "eva": "Neon Genesis Evangelion",
+  "films": {
+    "name": "Cine",
+    "description": "Cada mércores no meu cine máis cercano"
+  },
+  "futsal": "Fútbol sala",
+  "hollow": "Hollow Knight",
+  "lionking": "O Rey León",
+  "literature": {
+    "name": "Literatura",
+    "description": "Habituaba ler moito máis antes pero Branderson devolveume a esta afección"
+  },
+  "me": "Mass Effect",
+  "minecraft": "Minecraft",
+  "op": "One Piece",
+  "others": {
+    "name": "Outros",
+    "description": ""
+  },
+  "parasite": "Parasite",
+  "rakugo": "Showa Genroku Rakugo Shinju",
+  "tlotr": "O Señor dos Aneis",
+  "shawshank": "Cadena Perpetua",
+  "sports": {
+    "name": "Deporte",
+    "description": "Antes xogaba en equipos, agora xogo de cando en vez"
+  },
+  "steins": "Steins;Gate",
+  "stormlight": "O Archivo das Tormentas",
+  "videogames": {
+    "name": "Videoxogos",
+    "description": "Meu principal hobby dende neno. Ávido PC Gamer"
+  }
+}
