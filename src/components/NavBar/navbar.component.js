@@ -32,8 +32,9 @@ const NavBar = () => {
 				<Nav className="mr-auto"/> 								{/* Empty space */}
 				<Nav className="collapse-languages"> 					{/* Language buttons */}
 					{clanguages.languages.map((item) =>
-						<Image key={item.key} onClick={() => changeLanguage(item.code)}
-							src={process.env.PUBLIC_URL + item.icon} alt={t(item.alt)} className="nav-img flag-img"/>
+						<Image key={item.key} className="nav-img flag-img" onClick={() => changeLanguage(item.code)}
+								src={process.env.PUBLIC_URL + item.icon} alt={t(item.alt)}
+								data-toggle="tooltip" title={t(item.alt)}/>
 					)}
 				</Nav>
 			</Navbar.Collapse>
