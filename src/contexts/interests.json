@@ -9,15 +9,15 @@
           },
           {
             "name": "ds",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/ds.jpg"
           },
           {
             "name": "me",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/me.jpg"
           },
           {
             "name": "minecraft",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/minecraft.jpg"
           }
         ]
       },
@@ -26,15 +26,15 @@
         "images": [
           {
             "name": "op",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/op.png"
           },
           {
             "name": "tlotr",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/tlotr.jpg"
           },
           {
             "name": "stormlight",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/stormlight.jpg"
           }
         ]
       },
@@ -43,15 +43,15 @@
         "images": [
           {
             "name": "shawshank",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/shawshank.jpg"
           },
           {
             "name": "parasite",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/parasite.jpg"
           },
           {
             "name": "lionking",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/lionking.jpg"
           }
         ]
       },
@@ -60,19 +60,19 @@
         "images": [
           {
             "name": "eva",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/evangelion.jpg"
           },
           {
             "name": "steins",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/steins.jpg"
           },
           {
             "name": "rakugo",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/rakugo.jpeg"
           },
           {
             "name": "3gatsu",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/3gatsu.jpg"
           }
         ]
       },
@@ -81,11 +81,11 @@
         "images": [
           {
             "name": "basket",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/basket.jpg"
           },
           {
             "name": "futsal",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/futsal.jpg"
           }
         ]
       },
@@ -94,15 +94,15 @@
         "images": [
           {
             "name": "drawing",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/drawing.jpg"
           },
           {
             "name": "editing",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/editing.png"
           },
           {
             "name": "escapes",
-            "src": "/img/thumbnails/hollow.jpeg"
+            "src": "/img/thumbnails/escape.jpg"
           }
         ]
       }

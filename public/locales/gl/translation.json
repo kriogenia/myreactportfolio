@@ -20,5 +20,8 @@
     "title": "Curriculum Vitae",
     "studies": "Estudos",
     "jobs": "Empleos"
+  },
+  "interests": {
+    "title": "Intereses"
   }
 }
